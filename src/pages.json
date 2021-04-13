@@ -1,0 +1,491 @@
+{
+	"pages"      : [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/systemOccupancy/index",
+			"style": {
+				"navigationBarTitleText": "云美来智能营销系统"
+			}
+		},
+		{
+			"path" : "pages/slider/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus"       : {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path" : "pages/slider/searchFocus",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		// #ifdef APP-PLUS || H5
+		{
+			"path" : "pages/slider/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/slider/searchFocus",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/preview/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/fission/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/fission/ibk",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/fission/list",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/fission/preview",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/marketFission/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/marketFission/list",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/marketFission/preview",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/marketFission/address",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/raffle/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/raffle/list",
+			"style": {
+				"navigationStyle"      : "custom"
+			}
+		},
+		{
+			"path" : "pages/message/index",
+			"style": {
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/message/msg",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/customDetail/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/customDetail/noCustom",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/customDetail/edit",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/customDetail/tagsList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/customDetail/chatsList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/customDetail/thirdStore",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/customDetail/todoDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/customDetail/detailList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/material/list",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/redPacket/records",
+			"style": {
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/redPacket/detail",
+			"style": {
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/redFission/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/redForNew/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/redForNew/list",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/groupRedpacketSend/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/groupRedpacketSend/list",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/redpacketSend/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/redpacketSend/list",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/customImport/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/group/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/group/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/group/active",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/group/edit",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/group/tagsList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/group/clockIn",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/group/address",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/scrm/staging",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/scrm/todo",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/scrm/contents",
+			"name" : "contents",
+			"style": {
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/scrm/statistics",
+			"style": {
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/scrm/DetailedData",
+			"style": {
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/scrm/follow_up_data",
+			"style": {
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/scrm/groupData",
+			"style": {
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/scrm/member_data",
+			"style": {
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/scrm/customer",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/scrm/highSea",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/scrm/lossCustomer",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+        {
+            "path" : "pages/scrm/sop",
+            "style": {
+                "navigationStyle": "custom"
+            }
+        },
+
+        {
+            "path" : "pages/scrm/sopList",
+            "style": {
+                "navigationStyle": "custom"
+            }
+        },
+
+        {
+            "path" : "pages/scrm/sopSet",
+            "style": {
+                "navigationStyle": "custom"
+            }
+        },
+
+		{
+			"path" : "pages/highSeasCustomer/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/moments/list",
+			"style": {
+				"navigationBarTitleText": "朋友圈",
+				"navigationStyle"      : "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/moments/notice",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"app-plus"       : {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			 }
+			},
+		{
+			"path" : "pages/moments/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus"       : {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path" : "pages/moments/filing",
+			"style": {
+				"navigationBarTitleText": "內容引擎",
+				"app-plus"              : {
+					"titleNView": {
+						"titleColor"     : "#fff",
+						"backgroundColor": "#5077B7"
+					}
+				}
+			}
+		},
+		{
+			"path" : "pages/moments/publish",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus"       : {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		}
+		// #endif
+	],
+	"tabBar"     : {
+		"color"          : "#B5BECF",
+		"selectedColor"  : "#5283EC",
+		"borderStyle"    : "black",
+		"backgroundColor": "#fff",
+		"fontSize"       : "11px",
+		"width"          : "100%",
+		"list"           : [
+			{
+				"pagePath"        : "pages/scrm/staging",
+				"iconPath"        : "static/scrm/tabbar/1.png",
+				"selectedIconPath": "static/scrm/tabbar/1-1.png",
+				"text"            : "工作台"
+			},
+			{
+				"pagePath"        : "pages/scrm/customer",
+				"iconPath"        : "static/scrm/tabbar/2.png",
+				"selectedIconPath": "static/scrm/tabbar/2-2.png",
+				"text"            : "客户"
+			},
+			{
+				"pagePath"        : "pages/scrm/highSea",
+				"iconPath"        : "static/scrm/tabbar/4.png",
+				"selectedIconPath": "static/scrm/tabbar/4-4.png",
+				"text"            : "公海池"
+			},
+			{
+				"pagePath"        : "pages/scrm/contents",
+				"iconPath"        : "static/scrm/tabbar/3.png",
+				"selectedIconPath": "static/scrm/tabbar/3-3.png",
+				"text"            : "数据统计"
+			},
+			{
+				"pagePath"        : "pages/scrm/todo",
+				"iconPath"        : "static/scrm/tabbar/5.png",
+				"selectedIconPath": "static/scrm/tabbar/5-5.png",
+				"text"            : "待办项目"
+			}
+			//		,
+			//			{
+			//				"pagePath"        : "pages/group/tagsList",
+			//				"iconPath"        : "static/scrm/tabbar/4.png",
+			//				"selectedIconPath": "static/scrm/tabbar/4-4.png",
+			//				"text"            : "公海池"
+			//			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle"      : "black",
+		"navigationBarTitleText"      : "云美来智能营销系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor"             : "#F8F8F8"
+	}
+	//	"rightWindow": {
+	//		"path"      : "responsive/right-window.vue",
+	//		"style"     : {
+	//			"width": "calc(100vw - 450px)"
+	//		},
+	//		"matchMedia": {
+	//			"minWidth": 768
+	//		}
+	//	}
+}

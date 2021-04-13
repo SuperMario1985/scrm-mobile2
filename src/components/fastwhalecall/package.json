@@ -1,0 +1,20 @@
+{
+  "name": "fastwhalecall",
+  "version": "1.0.0",
+  "description": "云美来通讯系统",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fastwhale"
+  ],
+  "author": "brooke<overbob@yeah.net>",
+  "license": "MIT",
+  "dependencies": {
+    "eventemitter2": "^6.4.3",
+    "js-md5": "^0.7.3",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {}
+}
