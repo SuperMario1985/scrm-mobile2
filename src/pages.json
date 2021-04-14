@@ -427,8 +427,8 @@
 		// #endif
 	],
 	"tabBar"     : {
-		"color"          : "#B5BECF",
-		"selectedColor"  : "#5283EC",
+		"color"          : "#BCBCBC",
+		"selectedColor"  : "#01B065",
 		"borderStyle"    : "black",
 		"backgroundColor": "#fff",
 		"fontSize"       : "11px",
@@ -436,32 +436,32 @@
 		"list"           : [
 			{
 				"pagePath"        : "pages/scrm/staging",
-				"iconPath"        : "static/scrm/tabbar/1.png",
-				"selectedIconPath": "static/scrm/tabbar/1-1.png",
+				"iconPath"        : "static/scrm/tabbar/1.1.png",
+				"selectedIconPath": "static/scrm/tabbar/1-1.1.png",
 				"text"            : "工作台"
 			},
 			{
 				"pagePath"        : "pages/scrm/customer",
-				"iconPath"        : "static/scrm/tabbar/2.png",
-				"selectedIconPath": "static/scrm/tabbar/2-2.png",
+				"iconPath"        : "static/scrm/tabbar/2.1.png",
+				"selectedIconPath": "static/scrm/tabbar/2-2.1.png",
 				"text"            : "客户"
 			},
 			{
 				"pagePath"        : "pages/scrm/highSea",
-				"iconPath"        : "static/scrm/tabbar/4.png",
-				"selectedIconPath": "static/scrm/tabbar/4-4.png",
+				"iconPath"        : "static/scrm/tabbar/4.1.png",
+				"selectedIconPath": "static/scrm/tabbar/4-4.1.png",
 				"text"            : "公海池"
 			},
 			{
 				"pagePath"        : "pages/scrm/contents",
-				"iconPath"        : "static/scrm/tabbar/3.png",
-				"selectedIconPath": "static/scrm/tabbar/3-3.png",
+				"iconPath"        : "static/scrm/tabbar/3.1.png",
+				"selectedIconPath": "static/scrm/tabbar/3-3.1.png",
 				"text"            : "数据统计"
 			},
 			{
 				"pagePath"        : "pages/scrm/todo",
-				"iconPath"        : "static/scrm/tabbar/5.png",
-				"selectedIconPath": "static/scrm/tabbar/5-5.png",
+				"iconPath"        : "static/scrm/tabbar/5.1.png",
+				"selectedIconPath": "static/scrm/tabbar/5-5.1.png",
 				"text"            : "待办项目"
 			}
 			//		,

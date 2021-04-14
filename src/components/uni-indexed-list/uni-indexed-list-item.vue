@@ -8,7 +8,7 @@
 				<view class="uni-indexed-list__item-container">
 					<view class="uni-indexed-list__item-border" :class="{'uni-indexed-list__item-border--last':index===list.items.length-1}">
 						<view style="margin-right: 20rpx;">
-							<uni-icons :type="item.checked ? 'checkbox-filled' : 'circle'" :color="item.checked ? '#5284ec' : '#e5e5e5'" size="24" @click="onClick(idx, index)" v-if="(showSelect && item.depart == 1) || item.depart == 0" />
+							<uni-icons :type="item.checked ? 'checkbox-filled' : 'circle'" :color="item.checked ? '#01B065' : '#e5e5e5'" size="24" @click="onClick(idx, index)" v-if="(showSelect && item.depart == 1) || item.depart == 0" />
 						</view>
 						<view style="width: calc(100% - 34px);" @click="item.depart == 1 ? jump(item.id) : onClick(idx, index)">
 							<image style="width: 30px;height: 30px;margin-right: 10px;float: left;border-radius: 3px;"

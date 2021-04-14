@@ -1,6 +1,6 @@
 <template>
 	<view class="box">
-		<uni-nav-bar left-icon="back" title="标签筛选" @clickLeft="back" background-color="#5284ec"
+		<uni-nav-bar left-icon="back" title="标签筛选" @clickLeft="back" background-color="#01B065"
 		             color="#fff"></uni-nav-bar>
 		<!--		退出确认弹窗-->
 		<uni-popup ref="visible" type="center" :mask-click="false">
@@ -161,7 +161,7 @@
 
 	.tags-blue {
 		background: #E7EFFC;
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	.uni-list-item:hover {
@@ -179,7 +179,7 @@
 	}
 
 	.btn {
-		background-color: #5283EC;
+		background-color: #01B065;
 		color: #E7EFFC;
 		float: right;
 		font-size: 0.8rem /* 15/18.75 */;

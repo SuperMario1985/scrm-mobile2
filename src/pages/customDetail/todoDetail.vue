@@ -1,7 +1,7 @@
 <template>
 	<view class="todoDetailbox" v-show="isReady"  :class="wosScroll">
 		<uni-nav-bar left-icon="back" title="待办详情" @clickLeft="goBack"
-		             style="position: fixed;top: 0;z-index: 999;" background-color="rgba(82, 132, 236, 1)"
+		             style="position: fixed;top: 0;z-index: 999;" background-color="#01B065"
 		             color="#fff"></uni-nav-bar>
 		<view class="introduce">
 			<view class="introduce-title">{{detailRecord.title}}</view>
@@ -73,7 +73,7 @@
 				<scroll-view scroll-y="true" class="scroll-Y"
 				             style="font-size: 0.747rem  /* 14/18.75 */;color: #333;text-align: left;height: 20rem  /* 375/18.75 */;overflow-y: auto;">
 					<view style="line-height: 3.733rem  /* 70/18.75 */;color: #333333;font-size: 0.853rem  /* 16/18.75 */;font-weight: 700;text-align: left;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;word-break: break-all;">
-						<text style="width: 0.16rem  /* 3/18.75 */;height: 0.72rem  /* 13.5/18.75 */;display: inline-block;background: #5283EC;margin-right: 0.427rem  /* 8/18.75 */;"></text>
+						<text style="width: 0.16rem  /* 3/18.75 */;height: 0.72rem  /* 13.5/18.75 */;display: inline-block;background: #01B065;margin-right: 0.427rem  /* 8/18.75 */;"></text>
 						{{detailRecord.title}}
 					</view>
 					<view style="font-size: 0.747rem  /* 14/18.75 */;color: #333;text-align: left;">
@@ -550,7 +550,7 @@
 		line-height: 2.24rem /* 42/18.75 */;
 		border-radius: 0.267rem /* 5/18.75 */;
 		text-align: center;
-		background: #5283EC;
+		background: #01B065;
 		font-size: 0.8rem /* 15/18.75 */;
 		color: #FFF;
 	}

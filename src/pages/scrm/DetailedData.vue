@@ -790,7 +790,7 @@
 
 		.header {
 			height: 2.4rem;
-			background: #5283EC;
+			background: #01B065;
 			text-align: left;
 
 			.data {
@@ -805,13 +805,13 @@
 
 		.chartColor {
 			color: #FFFFFF !important;
-			background: #5183EB !important;
-			border-color: #5183EB !important;
+			background: #01B065 !important;
+			border-color: #01B065 !important;
 		}
 
 		.statuscolor {
-			color: #5183EB !important;
-			/*background: #5183EB !important;*/
+			color: #01B065 !important;
+			/*background: #01B065 !important;*/
 		}
 
 		/deep/ .dropdown-item__selected .selected__name {
@@ -914,8 +914,8 @@
 		}
 
 		#ChangeColor {
-			/*background: #5183EB;*/
-			color: #5183EB;
+			/*background: #01B065;*/
+			color: #01B065;
 		}
 
 		.custom-tabs-loading {

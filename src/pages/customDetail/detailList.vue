@@ -1,7 +1,7 @@
 <template>
 	<view class="customDetail" v-show="isReady">
 		<uni-nav-bar left-icon="back" title="待办详情" @clickLeft="goBack"
-			style="position: fixed;top: 0;z-index: 999;" background-color="rgba(82, 132, 236, 1)"
+			style="position: fixed;top: 0;z-index: 999;" background-color="#01B065"
 			color="#fff" v-if="this.getParameter('external_userid') != null"></uni-nav-bar>
 		<view class="detail-header">
 			<view class="header-item">

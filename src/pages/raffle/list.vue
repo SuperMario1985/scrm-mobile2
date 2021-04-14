@@ -1,6 +1,6 @@
 <template>
 	<view class="box">
-		<uni-nav-bar left-icon="back" title="中奖纪录" @clickLeft="back" background-color="#5284ec" color="#fff">
+		<uni-nav-bar left-icon="back" title="中奖纪录" @clickLeft="back" background-color="#01B065" color="#fff">
 		</uni-nav-bar>
 		<view v-if="flag">
 			<img :style="paddingTop" class="empty" src="../../static/raffle/empty.png"

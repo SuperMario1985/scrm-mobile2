@@ -1326,7 +1326,7 @@
 	.status-title2 {
 		height: 1.3rem;
 		font-size: 0.7rem;
-		color: #1890FF;
+		color: #01B065;
 		line-height: 1.4rem;
 	}
 
@@ -1335,7 +1335,7 @@
 	}
 
 	.status-title2:after {
-		border: 1px solid #1890FF;
+		border: 1px solid #01B065;
 	}
 
 	.receive-num {
@@ -1414,7 +1414,7 @@
 		margin: 0 10px;
 		display: inline-block;
 		cursor: pointer;
-		color: #1890FF;
+		color: #01B065;
 		height: 2.773rem /* 52/18.75 */;
 		line-height: 2.773rem /* 52/18.75 */;
 		vertical-align: top;
@@ -1422,7 +1422,7 @@
 	}
 
 	.action-btn /deep/ uni-button:after {
-		border: 1px solid #1890FF;
+		border: 1px solid #01B065;
 	}
 
 	.content-msg1 {

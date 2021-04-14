@@ -1,7 +1,7 @@
 <template>
 	<view class="chat-name">
 		<view style="font-size: 0.8rem;" @click="goBack">
-			<text style="color: #007aff;margin-right: 0.533rem;float: left;">< 返回</text>
+			<text style="color: #01B065;margin-right: 0.533rem;float: left;">< 返回</text>
 			<span style="margin-left: -2.68rem;">所在群</span>
 		</view>
 		<view>
@@ -72,7 +72,7 @@
 		float: left;
 	}
 	/deep/ .uni-tag-text {
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	/deep/ .uni-tag-text span {

@@ -1,12 +1,12 @@
 <template>
 	<app-layout :loading='!isReady'>
 		<view class="">
-			<uni-nav-bar   left-icon="back" title="系统通知" @clickLeft="back" background-color="#5284ec" color="#fff" :fixed="true">
+			<uni-nav-bar   left-icon="back" title="系统通知" @clickLeft="back" background-color="#01B065" color="#fff" :fixed="true">
 				<div class="icon_set scrmIconfont text-40 mr-10" slot="right" @click='toSopSet'></div>
 			</uni-nav-bar>
 			<view class="uni-navbar__content z-2">
 				<view class='mx-35 ss-sticky-top-li py-20'>
-					<van-checkbox checked-color='#5284ec'  icon-size='15px' v-model="is_show_no_over"> <view class='text-24 text-gray-501'>仅显示未完成任务</view></van-checkbox>
+					<van-checkbox checked-color='#01B065'  icon-size='15px' v-model="is_show_no_over"> <view class='text-24 text-gray-501'>仅显示未完成任务</view></van-checkbox>
 				</view>
 			</view>
 			<view class="px-30 py-30 pt-100">
@@ -176,7 +176,7 @@
 <style scoped>
 	.bg-bq{background: #e7effc}
 	page{background: #f6f6f6}
-	.ss-sed-k-btn{border: 1px solid #5283ec; box-sizing: border-box}
+	.ss-sed-k-btn{border: 1px solid #01B065; box-sizing: border-box}
 	.ss-send-box:after{content: ""; position: absolute; left: -10px; top: 10px;  border: 5px solid rgba(0,0,0,0);border-right-color: #fff;width: 0;height: 0;}
 	.ss-sticky-top{background-color: blue; position: fixed;   }
 	.uni-navbar__content {position: fixed;background-color: #fff; width: 750rpx;}

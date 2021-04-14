@@ -1,6 +1,6 @@
 <template>
 	<view class="box2 content_head">
-		<uni-nav-bar left-icon="back" :title="title" @clickLeft="back" :fixed="true" background-color="#5284ec" color="#fff"></uni-nav-bar>
+		<uni-nav-bar left-icon="back" :title="title" @clickLeft="back" :fixed="true" background-color="#01B065" color="#fff"></uni-nav-bar>
 		<!--		退出确认弹窗-->
 		<uni-popup ref="visible" type="center" :mask-click="false">
 			<view class="uni-tip">
@@ -190,7 +190,7 @@
 
 	.tags-blue {
 		background: #E7EFFC;
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	.uni-list-item:hover {
@@ -208,7 +208,7 @@
 	}
 
 	.btn {
-		background-color: #5283EC;
+		background-color: #01B065;
 		color: #E7EFFC;
 		float: right;
 		font-size: 0.8rem /* 15/18.75 */;

@@ -577,7 +577,7 @@
 						}
 
 						.uni-tab-item-title-active {
-							color: #007AFF;
+							color: #01B065;
 						}
 					}
 				}

@@ -35,7 +35,7 @@
 					<view class="flex justify-between items-center py-15">
 						<view class="text-36 text-left font-bold pb-10">需推送的客户</view>
 						<view class=''>
-							<van-checkbox checked-color='#5284ec' icon-size='15px' v-model="is_show_no_over"> <view class='text-24 text-gray-501'>仅显示未完成任务</view></van-checkbox>
+							<van-checkbox checked-color='#01B065' icon-size='15px' v-model="is_show_no_over"> <view class='text-24 text-gray-501'>仅显示未完成任务</view></van-checkbox>
 						</view>
 					</view>
 					<view class="text-28 text-left text-gray-501">
@@ -100,7 +100,7 @@
 					<view class="flex justify-between items-center py-15">
 						<view class="text-36 text-left font-bold pb-10">需推送的客户群</view>
 						<view class=''>
-							<van-checkbox checked-color='#5284ec' icon-size='15px' v-model="is_show_no_over"> <view class='text-24 text-gray-501'>仅显示未完成任务</view></van-checkbox>
+							<van-checkbox checked-color='#01B065' icon-size='15px' v-model="is_show_no_over"> <view class='text-24 text-gray-501'>仅显示未完成任务</view></van-checkbox>
 						</view>
 					</view>
 					<view class="text-24 text-left text-gray-501">
@@ -366,8 +366,8 @@
 	.flex-w1 {flex: 0 0 100%;}
 	.flex-w2, .flex-w3, .flex-w4 {flex: 0 0 50%;}
 	.flex-w5, .flex-w6, .flex-w7, .flex-w8, .flex-w9 {flex: 0 0 33.3%;}
-	.ss-wk-btn {border: 1px solid #5283ec; box-sizing: border-box}
-	.ss-wc-btn {border: 1px solid #5283ec; box-sizing: border-box}
+	.ss-wk-btn {border: 1px solid #01B065; box-sizing: border-box}
+	.ss-wc-btn {border: 1px solid #01B065; box-sizing: border-box}
 	.ss-wc-btn.active {border: 1px solid #bee3f8; background: #bee3f8!important;}
 	.uni-navbar__content{width: 750rpx}
 </style>

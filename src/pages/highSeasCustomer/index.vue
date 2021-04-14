@@ -79,7 +79,7 @@
 									       src="../../static/scrm/woman.png"
 									       v-if="item.gender == '女'"></image>
 								</view>
-								<text style="background: #F5F6FE;border-radius: 0.533rem  /* 10/18.75 */;color: #5283EC;font-size: 0.587rem  /* 11/18.75 */;padding: 0 0.64rem  /* 12/18.75 */;line-height: 1.067rem  /* 20/18.75 */;height: 1.067rem  /* 20/18.75 */;display: inline-block;float: right;display: none;"
+								<text style="background: #F5F6FE;border-radius: 0.533rem  /* 10/18.75 */;color: #01B065;font-size: 0.587rem  /* 11/18.75 */;padding: 0 0.64rem  /* 12/18.75 */;line-height: 1.067rem  /* 20/18.75 */;height: 1.067rem  /* 20/18.75 */;display: inline-block;float: right;display: none;"
 								      v-if="(type == 1 && remindType == 0) || (type == 0 && remindType == 0)"
 								      @click="open('addVisible')">
 									添加跟进
@@ -87,7 +87,7 @@
 								<view style="float: right;" v-if="type == 1">
 									<uni-icons type="arrowright" size="16" color="#cccccc"></uni-icons>
 								</view>
-								<view style="color: #5283EC;font-size: 0.587rem  /* 11/18.75 */;"
+								<view style="color: #01B065;font-size: 0.587rem  /* 11/18.75 */;"
 								      v-if="type == 1 && remindType == 2">【{{item.user_name}}】认领
 								</view>
 								<view v-if="(type == 1 && remindType == 0) || (type == 0 && remindType == 0)"
@@ -149,7 +149,7 @@ bottom: 0;left: 0;right: 0;"></Footer>
 						<view v-for="(imgSrc,imgIndex) in imageSrc" class="img">
 							<image :src="commonUrl + imgSrc" @click="preview(imgIndex)" class="img2"></image>
 							<uni-icons type="close" size="20" style="position: absolute;right: 0;top: 0;"
-							           color="#1890FF" @click="deleteImg(imgIndex)"></uni-icons>
+							           color="#01B065" @click="deleteImg(imgIndex)"></uni-icons>
 						</view>
 					</scroll-view>
 				</view>
@@ -654,7 +654,7 @@ bottom: 0;left: 0;right: 0;"></Footer>
 	}
 
 	.active-tab-btn {
-		background: #5283EC;
+		background: #01B065;
 		color: #FFF !important;
 	}
 
@@ -740,7 +740,7 @@ bottom: 0;left: 0;right: 0;"></Footer>
 	}
 
 	.more-choose-blue {
-		background: #5284EC;
+		background: #01B065;
 		color: #FFF;
 	}
 

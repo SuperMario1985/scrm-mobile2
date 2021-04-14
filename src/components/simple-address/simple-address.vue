@@ -71,7 +71,7 @@
  * @property {Array} pickerValueDefault 默认值，可以通过function queryIndex 获取
  * @property {Function} queryIndex 根据自定义信息返回对应的index
  * @property {Function} open 打开
- * @example  <simple-address ref="simpleAddress" :pickerValueDefault="cityPickerValueDefault" @onConfirm="onConfirm" themeColor='#007AFF'></simple-address>
+ * @example  <simple-address ref="simpleAddress" :pickerValueDefault="cityPickerValueDefault" @onConfirm="onConfirm" themeColor='#01B065'></simple-address>
  */
 
 import provinceData from './city-data/province.js';

@@ -1,6 +1,6 @@
 <template>
 	<view class="custom-tags">
-		<uni-nav-bar left-icon="back" title="当前拥有的标签" @clickLeft="goBack" background-color="#5284ec" color="#fff" :fixed="true"></uni-nav-bar>
+		<uni-nav-bar left-icon="back" title="当前拥有的标签" @clickLeft="goBack" background-color="#01B065" color="#fff" :fixed="true"></uni-nav-bar>
 		<view class="custom-tags-list">
 			<uni-tag :text="item.tagname" type="primary" :circle="true" class="custom-tags-list-tag"
 			         v-for="item in tagList"></uni-tag>
@@ -66,6 +66,6 @@
 	}
 
 	/deep/ .uni-tag-text {
-		color: #5283EC;
+		color: #01B065;
 	}
 </style>

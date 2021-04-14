@@ -38,7 +38,7 @@
 						</t-td>
 						<t-td align="center">
 							<view
-							        style="height: 1.387rem  /* 26/18.75 */;line-height: 1.387rem  /* 26/18.75 */;font-size:0.64rem  /* 12/18.75 */;color: #007AFF;width: 100%;"
+							        style="height: 1.387rem  /* 26/18.75 */;line-height: 1.387rem  /* 26/18.75 */;font-size:0.64rem  /* 12/18.75 */;color: #01B065;width: 100%;"
 							        v-clipboard:copy="item.phone"
 							        v-clipboard:success="(type) => copyPhone('success')"
 							        v-clipboard:error="(type) => copyPhone('error')"
@@ -86,7 +86,7 @@
 				statusIndex: 0,//选择的状态项的序号
 				count      : 0,//总数
 				page       : 1,//页码
-				addCustomImg      : '../../static/scrm/addCustom.png',//新建悬浮按钮
+				addCustomImg      : '../../static/scrm/addCustom1.png',//新建悬浮按钮
 				userPlatform:localStorage.getItem('userPlatform'),//客户端平台，pc端other，安卓手机android，苹果手机ios
 				is_show_copyright : localStorage.getItem('is_show_copyright'),//是否展示底部版權
 			}
@@ -338,7 +338,7 @@
 	}
 
 	.list-title {
-		border-left: 4px solid #007AFF;
+		border-left: 4px solid #01B065;
 		padding-left: 0.267rem /* 5/18.75 */;
 		margin-top: 0.347rem /* 6.5/18.75 */;
 		display: inline-block;

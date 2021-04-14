@@ -1718,7 +1718,7 @@
 	}
 
 	.activity-btn {
-		background: #5183EB !important;
+		background: #01B065 !important;
 		color: #FFF !important;
 	}
 
@@ -1731,7 +1731,7 @@
 		.header {
 			width: 20rem;
 			height: 3.413rem;
-			background: rgba(82, 131, 236, 1);
+			background: #01B065;
 		}
 
 		.content {
@@ -1760,7 +1760,7 @@
 			/deep/ .tabBlock .tab__line {
 				width: 1.1rem !important;
 				height: 0.213rem;
-				background: rgba(82, 131, 236, 1);
+				background: #01B065;
 				border-radius: 0.107rem;
 			}
 
@@ -1817,17 +1817,17 @@
 
 
 		#dateChangeColor {
-			/*background: #5183EB;*/
-			color: #5183EB;
+			/*background: #01B065;*/
+			color: #01B065;
 		}
 
 		#currentItemStyle {
-			/*background: #5183EB;*/
-			color: #5183EB;
+			/*background: #01B065;*/
+			color: #01B065;
 		}
 
 		.picker-active {
-			color: #1890FF !important;
+			color: #01B065 !important;
 		}
 
 		.custom-tabs-loading {
@@ -1849,7 +1849,7 @@
 		}
 
 		.color {
-			background: #1890FF !important;
+			background: #01B065 !important;
 			height: 0.5rem;
 			border-radius: 0.4rem;
 		}

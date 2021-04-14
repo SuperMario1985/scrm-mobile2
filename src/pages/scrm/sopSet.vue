@@ -1,7 +1,7 @@
 <template>
 	<app-layout :loading='!isReady'>
 		<view>
-			<uni-nav-bar left-icon="back" title="系统通知" @clickLeft="back" background-color="#5284ec" color="#fff" :fixed="true">
+			<uni-nav-bar left-icon="back" title="系统通知" @clickLeft="back" background-color="#01B065" color="#fff" :fixed="true">
 			</uni-nav-bar>
 
 
@@ -29,7 +29,7 @@
 						<view class="text-30 text-gray-900 pb-10">消息提醒免打扰</view>
 						<view class="text-24 text-gray-501">开启后，则在聊天侧边栏页面不会弹出提醒通知</view>
 					</view>
-					<van-switch active-color='#5283ec' v-model="status" @input="onInputStatus" />
+					<van-switch active-color='#01B065' v-model="status" @input="onInputStatus" />
 				</view>
 			</view>
 

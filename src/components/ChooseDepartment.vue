@@ -1,6 +1,6 @@
 <template>
 	<view class="box content_head">
-		<uni-nav-bar left-icon="back" @clickLeft="back" left-text="返回" background-color="#5284ec" color="#fff">
+		<uni-nav-bar left-icon="back" @clickLeft="back" left-text="返回" background-color="#01B065" color="#fff">
 			<uni-search-bar radius="30" placeholder="请输入搜索内容" clearButton="always"
 			                cancelButton="none" @input="search" ref="searchBar" v-if="searchVisible"/>
 			<view slot="right">
@@ -15,7 +15,7 @@
 		                  @jump="jumpClick" ref="uniList" v-show="usersList.length > 0"
 		                  v-if="isReady" style="bottom: 0;"></uni-indexed-list>
 		<view class="footer content_head" v-show="usersList.length > 0">
-			<uni-icons :type="isCheck ? 'checkbox-filled' : 'circle'" size="22" @click="changeCheck" color="#5284EC"
+			<uni-icons :type="isCheck ? 'checkbox-filled' : 'circle'" size="22" @click="changeCheck" color="#01B065"
 			           style="line-height: 2.667rem  /* 50/18.75 */;float: left;margin-left: 7.5px;"></uni-icons>
 			<scroll-view class="scroll-view" scroll-x="true" :scroll-into-view="toView" scroll-with-animation>
 				<view class="scroll-view-item" v-for="item in selectArr" @click="clearItem(item)" :id="'view'+item.id">
@@ -339,7 +339,7 @@
 	}
 
 	.btn {
-		background-color: #5284EC;
+		background-color: #01B065;
 		color: #E7EFFC;
 		float: right;
 		font-size: 15px;
@@ -400,7 +400,7 @@
 	}
 
 	/deep/ .uni-searchbar {
-		background-color: #5284EC;
+		background-color: #01B065;
 		width: 100%;
 	}
 

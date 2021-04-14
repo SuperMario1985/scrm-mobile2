@@ -2,7 +2,7 @@
 	<view class="box" v-if="isReady" :class="wosScroll">
 		<view v-show="!showChooseTags && !showChooseDepartment">
 			<view id="searchBar" class="content_head">
-				<view style="text-align: center;background: rgba(82, 132, 236, 1);" v-if="isdetail==1&&searchBarFixed">
+				<view style="text-align: center;background: #01B065;" v-if="isdetail==1&&searchBarFixed">
 					<view class="tabs" :class="tabType == 1 ? 'chooseTab' : ''" @click="changeTab(1)">
 						企微客户
 					</view>
@@ -12,7 +12,7 @@
 					<view class="tabs" :class="tabType == 3 ? 'chooseTab' : ''" @click="changeTab(3)">客户群</view>
 				</view>
 				<template v-if="(tabType == 1 || tabType == 2)">
-					<view style="overflow: hidden;background: #5284EC;" v-if="isdetail==1&&searchBarFixed">
+					<view style="overflow: hidden;background: #01B065;" v-if="isdetail==1&&searchBarFixed">
 						<view class="input-box">
 							<uni-icons type="search"
 							           style="font-size: 0.853rem  /* 16/18.75 */;color: #999;margin-right: 0.267rem  /* 5/18.75 */; margin-top: 0.107rem  /* 2/18.75 */; line-height: 1.493rem  /* 28/18.75 */; height: 1.493rem  /* 28/18.75 */;"></uni-icons>
@@ -23,7 +23,7 @@
 							           style="font-size: 0.96rem  /* 18/18.75 */;color: #999;margin-left: calc(-100% + 2.133rem  /* 40/18.75 */); line-height: 1.493rem  /* 28/18.75 */; margin-top: 0.107rem  /* 2/18.75 */;"
 							           v-if="name != ''" @click="clearInput"></uni-icons>
 						</view>
-						<text style="cursor:pointer;display: inline-block;width: 15%;text-align: center;color: #FFF;background: #5284EC;line-height: 1.6rem  /* 30/18.75 */;"
+						<text style="cursor:pointer;display: inline-block;width: 15%;text-align: center;color: #FFF;background: #01B065;line-height: 1.6rem  /* 30/18.75 */;"
 						      @click="reSetting">重置
 						</text>
 						<!--					<text style="color: #666;font-size: 13px;" @click="lossCustomer">流失客户</text>-->
@@ -51,7 +51,7 @@
 										<uni-list-item @click="changeFollowId(-1,'全部状态')" :showArrow="false"
 										               title="全部状态" :clickable="true">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="followId == -1"></uni-icons>
 											</template>
@@ -60,7 +60,7 @@
 										               :showArrow="false" @click="changeFollowId(item.id,item.title)"
 										               :clickable="true">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="followId == item.id"></uni-icons>
 											</template>
@@ -184,7 +184,7 @@
 									<view class="dropdown-footer">
 										<view type="default" class="dropdown-btn" @click="clear">重置</view>
 										<view type="default" class="dropdown-btn"
-										      style="color: #FFF;background: #5284EC;margin-left: 1.6rem  /* 30/18.75 */;"
+										      style="color: #FFF;background: #01B065;margin-left: 1.6rem  /* 30/18.75 */;"
 										      @click="sure">
 											确定
 										</view>
@@ -200,7 +200,7 @@
 					</view>
 				</template>
 				<template v-if="tabType == 3">
-					<view style="overflow: hidden;background: #5284EC;" v-if="searchBarFixed">
+					<view style="overflow: hidden;background: #01B065;" v-if="searchBarFixed">
 						<view class="input-box">
 							<uni-icons type="search"
 							           style="font-size: 0.853rem  /* 16/18.75 */;color: #999;margin-right: 0.267rem  /* 5/18.75 */; margin-top:  0.107rem  /* 2/18.75 */; line-height: 1.493rem  /* 28/18.75 */; height: 1.493rem  /* 28/18.75 */;"></uni-icons>
@@ -210,7 +210,7 @@
 							           style="font-size: 0.96rem  /* 18/18.75 */;color: #999;margin-left: calc(-100% + 2.133rem  /* 40/18.75 */); line-height: 1.493rem  /* 28/18.75 */; margin-top:  0.107rem  /* 2/18.75 */;"
 							           v-if="name2 != ''" @click="clearInput2"></uni-icons>
 						</view>
-						<text style="cursor:pointer;display: inline-block;width: 15%;text-align: center;color: #FFF;background: #5284EC;line-height: 1.6rem  /* 30/18.75 */;"
+						<text style="cursor:pointer;display: inline-block;width: 15%;text-align: center;color: #FFF;background: #01B065;line-height: 1.6rem  /* 30/18.75 */;"
 						      @click="reSetting2">重置
 						</text>
 					</view>
@@ -231,7 +231,7 @@
 										               :showArrow="false"
 										               title="全部">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="groupStatus == -1"></uni-icons>
 											</template>
@@ -239,7 +239,7 @@
 										<uni-list-item :clickable="true" @click="changeGroupStatus(0,'正常')"
 										               :showArrow="false" title="正常">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="groupStatus == 0"></uni-icons>
 											</template>
@@ -248,7 +248,7 @@
 										               :showArrow="false"
 										               title="跟进人离职">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="groupStatus == 1"></uni-icons>
 											</template>
@@ -257,7 +257,7 @@
 										               :showArrow="false"
 										               title="离职继承中">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="groupStatus == 2"></uni-icons>
 											</template>
@@ -266,7 +266,7 @@
 										               :showArrow="false"
 										               title="离职继承完成">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="groupStatus == 3"></uni-icons>
 											</template>
@@ -275,7 +275,7 @@
 										               :showArrow="false"
 										               title="群已解散">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="groupStatus == 4"></uni-icons>
 											</template>
@@ -291,7 +291,7 @@
 										               title="全部状态" @click="changeFollowId2(-1,'全部状态')"
 										               :clickable="true">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="followId2 == -1"></uni-icons>
 											</template>
@@ -300,7 +300,7 @@
 										               :showArrow="false" @click="changeFollowId2(item.id,item.title)"
 										               :clickable="true">
 											<template v-slot:right="">
-												<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+												<uni-icons type="checkmarkempty" size="22" color="#01B065"
 												           mode="widthFix"
 												           v-if="followId2 == item.id"></uni-icons>
 											</template>
@@ -355,7 +355,7 @@
 									<view class="dropdown-footer">
 										<view type="default" class="dropdown-btn" @click="clear2">重置</view>
 										<view type="default" class="dropdown-btn"
-										      style="color: #FFF;background: #5284EC;margin-left: 1.6rem  /* 30/18.75 */;"
+										      style="color: #FFF;background: #01B065;margin-left: 1.6rem  /* 30/18.75 */;"
 										      @click="sure2">
 											确定
 										</view>
@@ -371,16 +371,16 @@
 					             v-if="tabType == 1 || tabType == 2"
 					             style="white-space: nowrap;padding: 10px 10px 0 10px;width: auto;">
 						<view class="content-hd-tabs" :id="'view'+0" @click="changeLinkTime(0)"
-						      :style="{'background':linkTime == 0 ? '#5283EC' : '','color': linkTime == 0 ? '#FFF' : ''}">
+						      :style="{'background':linkTime == 0 ? '#01B065' : '','color': linkTime == 0 ? '#FFF' : ''}">
 							全部客户
 						</view>
 						<view class="content-hd-tabs" :id="'view'+-1" @click="changeLinkTime(-1)"
-						      :style="{'background':linkTime == -1 ? '#5283EC' : '','color': linkTime == -1 ? '#FFF' : ''}">
+						      :style="{'background':linkTime == -1 ? '#01B065' : '','color': linkTime == -1 ? '#FFF' : ''}">
 							一直未联系
 						</view>
 						<view class="content-hd-tabs" v-for="item in notFollowDay" :id="'view'+item.id"
 						      @click="changeLinkTime(item.id)"
-						      :style="{'background':linkTime == item.id ? '#5283EC' : '','color': linkTime == item.id ? '#FFF' : ''}">
+						      :style="{'background':linkTime == item.id ? '#01B065' : '','color': linkTime == item.id ? '#FFF' : ''}">
 							超过{{item.day}}天未联系
 						</view>
 					</scroll-view>
@@ -398,7 +398,7 @@
 							共{{count2}}个客户群
 						</text>
 						<button type="default" plain="true"
-						        style="float: right;height: 1.067rem  /* 20/18.75 */;border: 0.053rem  /* 1/18.75 */ solid #5284EC;line-height: 1.067rem;font-size: 0.587rem  /* 11/18.75 */;color: #5284EC;border-radius: 1.6rem  /* 30/18.75 */;display: none;">
+						        style="float: right;height: 1.067rem  /* 20/18.75 */;border: 0.053rem  /* 1/18.75 */ solid #01B065;line-height: 1.067rem;font-size: 0.587rem  /* 11/18.75 */;color: #01B065;border-radius: 1.6rem  /* 30/18.75 */;display: none;">
 							重复客户
 						</button>
 					</view>
@@ -441,7 +441,7 @@
 										<view class="list-hd-content-name"
 										      style="font-size: 0.693rem  /* 13/18.75 */; line-height: 1.28rem  /* 24/18.75 */;height: 1.28rem  /* 24/18.75 */;overflow: hidden;">
 											<text v-if="item2.per_name.length == 0 && item2.tag_name.length == 0"
-											      style="color: #5283EC;">暂无标签
+											      style="color: #01B065;">暂无标签
 											</text>
 											<text v-for="tag in item2.per_name" class="list-hd-content-tag">{{tag}}
 											</text>
@@ -464,7 +464,7 @@
 								      :style="{'float': from == 1 ? 'right' : ''}">
 									{{item2.follow_status}}
 								</text>
-								<text style="background: #F5F6FE;border-radius: 0.533rem  /* 10/18.75 */;color: #5283EC;font-size: 0.587rem  /* 11/18.75 */;padding: 0 0.267rem  /* 5/18.75 */;line-height: 1.067rem  /* 20/18.75 */;display: inline-block;float: right;"
+								<text style="background: #F5F6FE;border-radius: 0.533rem  /* 10/18.75 */;color: #01B065;font-size: 0.587rem  /* 11/18.75 */;padding: 0 0.267rem  /* 5/18.75 */;line-height: 1.067rem  /* 20/18.75 */;display: inline-block;float: right;"
 								      v-if="from == 2">
 									{{item2.memberInfo[0].member}}
 								</text>
@@ -501,7 +501,7 @@
 											<view class="list-hd-content-name"
 											      style="font-size: 0.693rem  /* 13/18.75 */; line-height: 1.28rem  /* 24/18.75 */;height: 1.28rem  /* 24/18.75 */;overflow: hidden;">
 												<text v-if="item2.tag_name.length == 0"
-												      style="color: #5283EC;">暂无标签
+												      style="color: #01B065;">暂无标签
 												</text>
 												<text v-for="tag in item2.tag_name" v-if="item2.tag_name.length > 0"
 												      class="list-hd-content-tag">{{tag}}
@@ -526,7 +526,7 @@
 									      :style="{'float': from == 1 ? 'right' : ''}">
 										{{item2.follow_status}}
 									</text>
-									<text style="background: #F5F6FE;border-radius: 0.533rem  /* 10/18.75 */;color: #5283EC;font-size: 0.587rem  /* 11/18.75 */;padding: 0 0.267rem  /* 5/18.75 */;line-height: 1.067rem  /* 20/18.75 */;display: inline-block;float: right;"
+									<text style="background: #F5F6FE;border-radius: 0.533rem  /* 10/18.75 */;color: #01B065;font-size: 0.587rem  /* 11/18.75 */;padding: 0 0.267rem  /* 5/18.75 */;line-height: 1.067rem  /* 20/18.75 */;display: inline-block;float: right;"
 									      v-if="from == 2 && item2.memberInfo">
 										{{item2.memberInfo.member}}
 									</text>
@@ -547,7 +547,7 @@
 					<view style="overflow: hidden;">
 						<view style="overflow:hidden;margin-bottom: 5px;"
 						      @click="toGroupDetail(item.owner,item.chat_id_str)">
-							<view style="background: #1890FF;width: 2.4rem  /* 45/18.75 */;height:2.4rem  /* 45/18.75 */;border-radius: 0.267rem  /* 5/18.75 */;float: left;overflow: hidden;"
+							<view style="background: #01B065;width: 2.4rem  /* 45/18.75 */;height:2.4rem  /* 45/18.75 */;border-radius: 0.267rem  /* 5/18.75 */;float: left;overflow: hidden;"
 							      v-if="item.avatarData.length == 0">
 								<img src="../../static/group/chat.png"
 								     style="width: 1.707rem  /* 32/18.75 */;margin: 0.347rem  /* 6.5/18.75 */;height: 1.707rem  /* 32/18.75 */;"/>
@@ -594,7 +594,7 @@
 									<view class="list-hd-content-name"
 									      style="font-size: 0.64rem  /* 12/18.75 */;line-height: 1.28rem  /* 24/18.75 */;height: 1.28rem  /* 24/18.75 */;overflow: hidden;width: calc(100% - 20px);float: left;">
 										<text v-if="item.tag_name.length == 0"
-										      style="color: #5283EC;">暂无标签
+										      style="color: #01B065;">暂无标签
 										</text>
 										<text v-for="tag in item.tag_name" class="list-hd-content-tag">{{tag.tname}}
 										</text>
@@ -628,13 +628,13 @@
 					<view style="line-height: 2.667rem  /* 50/18.75 */;line-height: 2.667rem  /* 50/18.75 */;padding: 0 0.533rem  /* 10/18.75 */;"
 					      @click="changeFrom(2)">
 						按添加时间排序
-						<uni-icons type="checkmarkempty" size="22" color="#5284EC" style="float: right;"
+						<uni-icons type="checkmarkempty" size="22" color="#01B065" style="float: right;"
 						           v-if="from == 2"></uni-icons>
 					</view>
 					<view style="border-bottom: 0.053rem  /* 1/18.75 */ solid #CCC;line-height: 2.667rem  /* 50/18.75 */;line-height: 2.667rem  /* 50/18.75 */;padding: 0 0.533rem  /* 10/18.75 */;"
 					      @click="changeFrom(1)">
 						按添加人排序
-						<uni-icons type="checkmarkempty" size="22" color="#5284EC" style="float: right;"
+						<uni-icons type="checkmarkempty" size="22" color="#01B065" style="float: right;"
 						           v-if="from == 1"></uni-icons>
 					</view>
 
@@ -907,7 +907,7 @@
 				searchTimeout       : '',
 				showChooseTags      : false,//是否展示选择标签组件
 				addBtnImg           : '../../static/scrm/btn.png',//新建悬浮按钮
-				addCustomImg        : '../../static/scrm/addCustom.png',//添加客户悬浮按钮
+				addCustomImg        : '../../static/scrm/addCustom1.png',//添加客户悬浮按钮
 				//录入客户
 				recordName          : '',//姓名
 				recordWx            : '',//微信号
@@ -979,12 +979,12 @@
 				that.initPage(that.limit)
 			})
 
-			// localStorage.setItem('user_id', 'xuyumin')
+			// localStorage.setItem('user_id', 'lileilei@idengyun.com')
 			// localStorage.setItem('uid', 2)
 			// localStorage.setItem('corpid', 'ww93caebeee67d134b')
-			// localStorage.setItem('agent_id', '25')
+			// localStorage.setItem('agent_id', '2')
 			// localStorage.setItem('token', 'U3ViVXNlci04NGVmZDNjMGVmNWFmYTJlMWM1ODFmNWU4ZjgyNTg3Nw=')
-			// localStorage.setItem('is_show_copyright', 1)
+			// localStorage.setItem('is_show_copyright', 0)
 			// that.is_show_copyright = 1
 			// that.is_show_copyright2 = true
 			// that.getInfoData()
@@ -2666,7 +2666,7 @@
 		font-size: 0.8rem /* 15/18.75 */;
 		padding: 0 0.427rem /* 8/18.75 */;
 		margin: 0.8rem /* 15/18.75 */ 0 0.533rem /* 10/18.75 */;
-		background: rgba(82, 132, 236, 1);
+		background: #01B065;
 		color: #FFF;
 		width: 4.267rem /* 80/18.75 */;
 	}
@@ -2686,7 +2686,7 @@
 
 	.chooseTab {
 		background: #FFF;
-		color: rgba(82, 132, 236, 1);
+		color: #01B065;
 	}
 
 	.tab_picker {
@@ -2729,7 +2729,7 @@
 	}
 
 	.active-tab-btn {
-		background: #5283EC;
+		background: #01B065;
 		color: #FFF !important;
 	}
 
@@ -2886,7 +2886,7 @@
 
 	.list-hd-content-tag {
 		background: #E7EFFC;
-		color: #5283EC;
+		color: #01B065;
 		border-radius: 0.267rem /* 5/18.75 */;
 		height: 0.853rem /* 16/18.75 */;
 		margin-right: 0.267rem /* 5/18.75 */;
@@ -2896,7 +2896,7 @@
 
 	.more-choose-blue {
 		background: #E7EFFC;
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	/deep/ .uni-popup__wrapper-box {
@@ -3049,7 +3049,7 @@
 		line-height: 2.24rem /* 42/18.75 */;
 		border-radius: 0.267rem /* 5/18.75 */;
 		text-align: center;
-		background: #5283EC;
+		background: #01B065;
 		font-size: 0.8rem /* 15/18.75 */;
 		color: #FFF;
 	}
@@ -3093,7 +3093,7 @@
 		padding: 0 0.853rem /* 16/18.75 */;
 		font-size: 0.64rem /* 12/18.75 */;
 		background: #E7EFFC;
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	.add-input /deep/ .uni-input-wrapper {

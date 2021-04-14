@@ -442,13 +442,13 @@
   }
 
   .cmd-progress-circle-path {
-    stroke: #1890ff;
+    stroke: #01B065;
     animation: appear 0.3s;
   }
 
   .cmd-progress-success-bg,
   .cmd-progress-bg {
-    background-color: #1890ff;
+    background-color: #01B065;
     transition: all 0.4s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
     position: relative;
   }

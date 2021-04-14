@@ -2,7 +2,7 @@
 	<view>
 		<view class="box" v-if="isReady && !showChooseDepartment">
 			<view style="background: #FFF;z-index:99;position: fixed;top: 0;left: 0;right: 0;">
-				<uni-nav-bar left-icon="back" @clickLeft="back" background-color="#5284ec" color="#fff">
+				<uni-nav-bar left-icon="back" @clickLeft="back" background-color="#01B065" color="#fff">
 					<uni-search-bar :radius="100" @input="search" clearButton="always" cancelButton="none"
 					                style="width: 14.933rem  /* 280/18.75 */;line-height: 1.6rem  /* 30/18.75 */;"
 					                placeholder="请输入客户姓名/昵称/备注/公司名称"></uni-search-bar>
@@ -76,7 +76,7 @@
 							           style="color: #CCC;font-size: 0.853rem  /* 16/18.75 */;line-height: 2.667rem  /* 50/18.75 */;"></uni-icons>
 						</view>
 						<view>
-							<text style="background: #F5F6FE;border-radius: 0.533rem  /* 10/18.75 */;color: #5283EC;font-size: 0.587rem  /* 11/18.75 */;padding: 0 0.267rem  /* 5/18.75 */;line-height: 1.067rem  /* 20/18.75 */;height: 1.067rem  /* 20/18.75 */;display: inline-block;float: right;">
+							<text style="background: #F5F6FE;border-radius: 0.533rem  /* 10/18.75 */;color: #01B065;font-size: 0.587rem  /* 11/18.75 */;padding: 0 0.267rem  /* 5/18.75 */;line-height: 1.067rem  /* 20/18.75 */;height: 1.067rem  /* 20/18.75 */;display: inline-block;float: right;">
 								{{item.member}}
 							</text>
 						</view>
@@ -414,8 +414,8 @@
 	}
 
 	.active-tab-btn {
-		border-color: #5284EC !important;
-		color: #5284EC !important;
+		border-color: #01B065 !important;
+		color: #01B065 !important;
 	}
 
 	.choose-tags {
@@ -529,7 +529,7 @@
 	}
 
 	.more-choose-blue {
-		background: #5284EC;
+		background: #01B065;
 		color: #FFF;
 	}
 
@@ -553,7 +553,7 @@
 	}
 
 	/deep/ .uni-searchbar {
-		background-color: #5284EC;
+		background-color: #01B065;
 	}
 
 </style>

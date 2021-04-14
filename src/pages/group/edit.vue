@@ -44,7 +44,7 @@
 									       class="img2"></image>
 									<uni-icons type="close" size="20"
 									           style="position: absolute;right: 0;top: 0.267rem  /* 5/18.75 */;"
-									           color="#1890FF" @click="deleteImg(index, imgIndex)"></uni-icons>
+									           color="#01B065" @click="deleteImg(index, imgIndex)"></uni-icons>
 								</view>
 								<view class="uni-hello-addfile demo" style="cursor:pointer;float: left;" @click="chooseImage(index)">
 									<text style="margin: 0.533rem 0; display: inline-block;font-size: 1.493rem  /* 28/18.75 */;">
@@ -72,7 +72,7 @@
 								<template v-if="item.hasOption.length > 0">
 									<view class="choose-status2" v-for="(option,optionIndex) in item.hasOption">
 										{{option}}
-										<uni-icons type="closeempty" size="20" style="float: right;color: #007AFF;"
+										<uni-icons type="closeempty" size="20" style="float: right;color: #01B065;"
 										           @click="deleteTag(optionIndex,index)"></uni-icons>
 									</view>
 								</template>
@@ -645,7 +645,7 @@
 	}
 
 	.list-content {
-		color: #007AFF;
+		color: #01B065;
 		font-size: 0.693rem;
 		display: inline-block;
 		width: calc(100% - 4.427rem);
@@ -653,7 +653,7 @@
 	}
 
 	.list-content2 {
-		color: #007AFF;
+		color: #01B065;
 		font-size: 0.693rem;
 		display: inline-block;
 		width: calc(100% - 0.907rem);
@@ -679,7 +679,7 @@
 
 	.choose-status2 {
 		float: left;
-		border: 1px solid #007AFF;
+		border: 1px solid #01B065;
 		padding: 0.16rem /* 3/18.75 */;
 		border-radius: 0.16rem /* 3/18.75 */;
 		margin: 0 0.16rem /* 3/18.75 */ 0.16rem /* 3/18.75 */ 0;

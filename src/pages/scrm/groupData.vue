@@ -570,7 +570,7 @@
 
 		.header {
 			height: 2.4rem;
-			background: #5283EC;
+			background: #01B065;
 			text-align: left;
 
 			.data {
@@ -586,7 +586,7 @@
 		}
 
 		#ChangeColor {
-			color: #5183EB;
+			color: #01B065;
 		}
 
 		/deep/ .dropdown-item__selected {

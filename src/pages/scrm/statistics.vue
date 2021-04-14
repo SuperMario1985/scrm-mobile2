@@ -6,7 +6,7 @@
 					<uni-icons @click="back()" type="arrowleft"
 					           style=" font-size:0.8rem;color: #FFF;margin-left: 0.373rem"></uni-icons>
 					<text class="data">内容统计</text>
-					<!--		<uni-nav-bar left-icon="back" left-text="返回" @clickLeft="back" background-color="#5284ec" color="#fff"></uni-nav-bar>-->
+					<!--		<uni-nav-bar left-icon="back" left-text="返回" @clickLeft="back" background-color="#01B065" color="#fff"></uni-nav-bar>-->
 			</view>
 			<view style="top:0">
 				<view style="width: 100%; display: flex;background: #FFF;align-items: center">
@@ -816,8 +816,8 @@
 		}
 
 		#ChangeColor {
-			/*background: #5183EB;*/
-			color: #5183EB;
+			/*background: #01B065;*/
+			color: #01B065;
 		}
 
 		.custom-tabs-loading {
@@ -850,12 +850,12 @@
 		}
 
 		#currentItemStyle {
-			color: #5183EB;
+			color: #01B065;
 		}
 
 		.back {
 			height: 2.4rem;
-			background: #5283EC;
+			background: #01B065;
 			text-align: left;
 
 			.data {

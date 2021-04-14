@@ -91,7 +91,7 @@
 					             scroll-with-animation
 					             style="white-space: nowrap;">
 						<view class="content-hd-tabs" v-for="item in followList" :id="'view'+item.id"
-						      :style="{'background':item.id == followId ? '#5283EC' : '','color': item.id == followId ? '#FFF' : ''}"
+						      :style="{'background':item.id == followId ? '#01B065' : '','color': item.id == followId ? '#FFF' : ''}"
 						      @click="changeFollowId(item.id,item.title)">{{item.title}}
 							<text v-if="item.status == 0">（已删除）</text>
 						</view>
@@ -530,7 +530,7 @@
 	}
 
 	.list-hd {
-		background: rgba(82, 132, 236, 1);
+		background: #01B065;
 		height: 3.813rem /* 71.5/18.75 */;
 		padding: 0.8rem /* 15/18.75 */ 0.8rem /* 15/18.75 */ 0;
 		box-sizing: border-box;
@@ -568,7 +568,7 @@
 	}
 
 	.list-bd {
-		background: rgba(82, 132, 236, 1);
+		background: #01B065;
 		height: 3.2rem /* 60/18.75 */;
 		border-bottom-left-radius: 50%;
 		border-bottom-right-radius: 50%;

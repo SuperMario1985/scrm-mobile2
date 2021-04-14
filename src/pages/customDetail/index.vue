@@ -23,7 +23,7 @@
 			</view>
 
 			<view v-if="isReady">
-				<uni-nav-bar left-icon="back" title="客户详情" @clickLeft="back" background-color="#5284ec" color="#fff"
+				<uni-nav-bar left-icon="back" title="客户详情" @clickLeft="back" background-color="#01B065" color="#fff"
 				             v-if="this.getParameter('external_userid') != null" :fixed="true"></uni-nav-bar>
 				<view class="custom-info">
 					<view style="overflow: hidden;">
@@ -123,7 +123,7 @@
 							<view class="page-section-spacing">
 								<swiper class="swiper" style="height: 6.933rem;" :key="swiperKey"
 								        :indicator-dots="list.memberInfo.length == 1 ? false : indicatorDots"
-								        indicator-active-color="#007AFF" :autoplay="autoplay">
+								        indicator-active-color="#01B065" :autoplay="autoplay">
 									<swiper-item v-for="item in list.memberInfo">
 										<view class="card-no">
 											卡号NO.{{item.cardNo}}
@@ -331,7 +331,7 @@
 											{{part.status_title}}
 										</text>
 										<view style="width: 7rem;display: inline-block;float: right;    margin-top: 0.16rem  /* 3/18.75 */;">
-											<cmd-progress :percent="part.per" stroke-color="#5284EC"></cmd-progress>
+											<cmd-progress :percent="part.per" stroke-color="#01B065"></cmd-progress>
 										</view>
 									</view>
 								</view>
@@ -413,7 +413,7 @@
 					      v-has="'client-assign'">客户转交
 					</view>
 					<view class="footer-btn" v-if="list.is_protect == 1" @click="cancelProtect"
-					      style="background-color: #5284EC;width: 40%;border-radius: 0.96rem  /* 18/18.75 */;height: 1.6rem  /* 30/18.75 */;margin: 0.5rem auto;color: #FFF;"
+					      style="background-color: #01B065;width: 40%;border-radius: 0.96rem  /* 18/18.75 */;height: 1.6rem  /* 30/18.75 */;margin: 0.5rem auto;color: #FFF;"
 					      v-has="'client-protect'">
 						取消保护
 					</view>
@@ -446,7 +446,7 @@
 				<scroll-view scroll-y class="scroll-Y"
 				             style="font-size: 0.747rem  /* 14/18.75 */;color: #333;text-align: left;height: 20rem  /* 375/18.75 */;overflow-y: auto;">
 					<view style="line-height: 3.733rem  /* 70/18.75 */;color: #333333;font-size: 0.853rem  /* 16/18.75 */;font-weight: 700;text-align: left;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;word-break: break-all;">
-						<text style="width: 0.16rem  /* 3/18.75 */;height: 0.72rem  /* 13.5/18.75 */;display: inline-block;background: #5283EC;margin-right: 0.427rem  /* 8/18.75 */;"></text>
+						<text style="width: 0.16rem  /* 3/18.75 */;height: 0.72rem  /* 13.5/18.75 */;display: inline-block;background: #01B065;margin-right: 0.427rem  /* 8/18.75 */;"></text>
 						{{projectName}}
 					</view>
 					<view style="font-size: 0.747rem  /* 14/18.75 */;color: #333;text-align: left;">
@@ -572,7 +572,7 @@
 						<view v-for="(imgSrc,imgIndex) in imageSrc" class="img">
 							<image :src="commonUrl + imgSrc" @click="preview(imgIndex)" class="img2"></image>
 							<uni-icons type="close" size="20" style="position: absolute;right: 0;top: 0;"
-							           color="#1890FF" @click="deleteImg(imgIndex)"></uni-icons>
+							           color="#01B065" @click="deleteImg(imgIndex)"></uni-icons>
 						</view>
 					</scroll-view>
 				</view>
@@ -2429,8 +2429,8 @@
 	}
 
 	.tag-blue {
-		border: 1px solid #5283EC;
-		color: #5283EC;
+		border: 1px solid #01B065;
+		color: #01B065;
 	}
 
 	.tag-green {
@@ -2569,7 +2569,7 @@
 	}
 
 	/deep/ .uni-tag-text {
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	/deep/ .uni-tag-text span {
@@ -2888,7 +2888,7 @@
 
 	.todo-box-body-btn {
 		/*width: 4.053rem !* 76/18.75 *!;*/
-		background: #5283EC;
+		background: #01B065;
 		display: inline-block;
 		font-size: 0.64rem /* 12/18.75 */;
 		line-height: 1.493rem /* 28/18.75 */;
@@ -2925,7 +2925,7 @@
 		line-height: 2.24rem /* 42/18.75 */;
 		border-radius: 0.267rem /* 5/18.75 */;
 		text-align: center;
-		background: #5283EC;
+		background: #01B065;
 		font-size: 0.8rem /* 15/18.75 */;
 		color: #FFF;
 	}
@@ -2966,7 +2966,7 @@
 	}
 
 	.three-btn {
-		background-color: #5284EC;
+		background-color: #01B065;
 		width: 28%;
 		border-radius: 0.96rem /* 18/18.75 */;
 		height: 1.6rem /* 30/18.75 */;
@@ -2975,7 +2975,7 @@
 	}
 
 	.two-btn {
-		background-color: #5284EC;
+		background-color: #01B065;
 		width: 40%;
 		border-radius: 0.96rem /* 18/18.75 */;
 		height: 1.6rem /* 30/18.75 */;
@@ -3003,7 +3003,7 @@
 				.custom-item-garde{
 					margin-top: 10rpx;
 					font-size: 28rpx;
-					color: #007aff;
+					color: #01B065;
 				}
 				.custom-follow{
 					margin-top: 10rpx;

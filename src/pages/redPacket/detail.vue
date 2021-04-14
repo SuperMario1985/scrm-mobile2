@@ -299,7 +299,7 @@
 	}
 
 	.list-title {
-		border-left: 4px solid #007AFF;
+		border-left: 4px solid #01B065;
 		padding-left: 0.267rem /* 5/18.75 */;
 		margin-top: 0.347rem /* 6.5/18.75 */;
 		display: inline-block;

@@ -184,6 +184,6 @@
 
 <style lang="scss" scoped>
 	.bg-bq{background: #e7effc}
-	.ss-sed-k-btn{border: 1px solid #5283ec; box-sizing: border-box}
+	.ss-sed-k-btn{border: 1px solid #01B065; box-sizing: border-box}
 	.ss-sop-pop{height: calc(600rem/37.5); overflow: auto;}
 </style>

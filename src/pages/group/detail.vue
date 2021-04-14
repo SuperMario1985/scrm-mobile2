@@ -1,7 +1,7 @@
 <template>
 	<view class="member_container" v-if="isReady">
 		<uni-nav-bar left-icon="back" style="position: fixed; z-index: 9;" :title="title" @clickLeft="back"
-		             background-color="#5284ec"
+		             background-color="#01B065"
 		             color="#fff"></uni-nav-bar>
 		<view class="select-list content_head">
 			<!--  选择	-->
@@ -29,10 +29,10 @@
 						自定义时间
 					</text>
 					<uni-icons @click="onShowDatePicker('range2')" v-if="dateIndex != 4 || range2.length != 2"
-					           :style="dateIndex == 4 ? {color: '#1890FF'} : {color: '#999'}"
+					           :style="dateIndex == 4 ? {color: '#01B065'} : {color: '#999'}"
 					           type="arrowdown"></uni-icons>
 					<uni-icons style="margin-left: 0.267rem  /* 5/18.75 */;" v-if="dateIndex == 4 && range2.length == 2"
-					           :style="dateIndex == 4 ? {color: '#1890FF'} : {color: '#999'}"
+					           :style="dateIndex == 4 ? {color: '#01B065'} : {color: '#999'}"
 					           type="clear" @click="clearTime"></uni-icons>
 				</view>
 			</view>
@@ -708,7 +708,7 @@
 
 	.blue {
 		border: 1px solid #91D5FF;
-		color: #1890FF;
+		color: #01B065;
 		background: #E6F7FF;
 	}
 
@@ -793,9 +793,9 @@
 		}
 
 		.ChangeColor {
-			border: 1px solid #1890FF !important;
+			border: 1px solid #01B065 !important;
 			background-color: #FFFFFF;
-			color: #1890FF;
+			color: #01B065;
 		}
 
 
@@ -838,7 +838,7 @@
 			color: #999;
 			width: 100%;
 			padding: 0.534rem 0;
-			background-color: #1890FF;
+			background-color: #01B065;
 		}
 
 		.username {

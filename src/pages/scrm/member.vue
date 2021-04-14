@@ -1245,12 +1245,12 @@
 
 		.chartColor {
 			color: #FFFFFF !important;
-			background: #5183EB !important;
-			border-color: #5183EB !important;
+			background: #01B065 !important;
+			border-color: #01B065 !important;
 		}
 
 		.activity-btn {
-			background: #5183EB !important;
+			background: #01B065 !important;
 			color: #FFF !important;
 		}
 
@@ -1325,8 +1325,8 @@
 			}
 
 			#border {
-				color: #1890FF;
-				border-bottom: 0.16rem solid #1890FF;
+				color: #01B065;
+				border-bottom: 0.16rem solid #01B065;
 
 			}
 		}
@@ -1347,7 +1347,7 @@
 
 					#item_color {
 						background: #E5F1FF;
-						color: #1890FF;
+						color: #01B065;
 					}
 
 					.item {
@@ -1383,8 +1383,8 @@
 		}
 
 		#ChangeColor {
-			/*background: #5183EB;*/
-			color: #5183EB;
+			/*background: #01B065;*/
+			color: #01B065;
 		}
 
 		.title_style {
@@ -1393,7 +1393,7 @@
 		}
 
 		.color {
-			background: #1890FF;
+			background: #01B065;
 			height: 0.5rem;
 			border-radius: 0.4rem;
 		}

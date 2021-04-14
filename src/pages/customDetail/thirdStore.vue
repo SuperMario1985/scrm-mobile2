@@ -2,7 +2,7 @@
 	<view class="box">
 		<view v-if="isReady">
 			<view style="display: flex;justify-content: space-between;height: 1.76rem  /* 33/18.75 */;margin-top: 0.373rem  /* 7/18.75 */;background-color: #FFFFFF;text-align: left;padding: 0 0.64rem  /* 12/18.75 */ 0.587rem;">
-				<view style="cursor:pointer;height: 1.76rem /* 33/18.75 */; line-height: 1.76rem;width: 3rem; float: left; font-size: 0.747rem  /* 14/18.75 */;color: #007AFF;"
+				<view style="cursor:pointer;height: 1.76rem /* 33/18.75 */; line-height: 1.76rem;width: 3rem; float: left; font-size: 0.747rem  /* 14/18.75 */;color: #01B065;"
 				      @click="onClickLeft" >
 					<
 				</view>
@@ -157,7 +157,7 @@
 							<view class="page-section-spacing">
 								<swiper class="swiper" style="height: 6.933rem;" :key="swiperKey"
 								        :indicator-dots="userInfo.length == 1 ? false : indicatorDots"
-								        indicator-active-color="#007AFF" :autoplay="autoplay">
+								        indicator-active-color="#01B065" :autoplay="autoplay">
 									<swiper-item v-for="item in userInfo">
 										<view class="card-no">
 											卡号NO.{{item.cardNo}}
@@ -183,7 +183,7 @@
 					</view>
 				</view>
 				<view style="margin: 0.533rem 0 0.267rem; height: 2.667rem; line-height: 2.667rem;background-color: #FFFFFF;text-align: left;font-weight: 700;">
-					<text style="margin-left: 0.533rem;height: 0.693rem;color: #007AFF;font-size: 0.693rem;">|</text>
+					<text style="margin-left: 0.533rem;height: 0.693rem;color: #01B065;font-size: 0.693rem;">|</text>
 					<text class="orders-title">订单记录（{{total}}条）</text>
 				</view>
 				<view>
@@ -291,7 +291,7 @@
 		<uni-popup ref="bindVisible" type="bottom" :mask-click="false">
 			<view class="uni-tip" ref="uniTip">
 				<view class="uni-tip-title">
-					<text style="float: left;border-bottom: 2px solid #007AFF;">客户绑定</text>
+					<text style="float: left;border-bottom: 2px solid #01B065;">客户绑定</text>
 					<icon type="clear" style="float: right;" size="20" @click="cancle"/>
 				</view>
 				<scroll-view scroll-y="true" style="height: 18.667rem;" class="scroll-Y">
@@ -330,7 +330,7 @@
 								<t-td align="center">{{item.points}}</t-td>
 								<t-td align="center">{{item.money}}</t-td>
 								<t-td align="center">{{item.orderCount}}</t-td>
-								<t-td align="center" style="color:#007AFF;">{{item.isBind}}</t-td>
+								<t-td align="center" style="color:#01B065;">{{item.isBind}}</t-td>
 							</t-tr>
 						</t-table>
 						<view v-if="noData" style="margin: 16px 0;color: #666;">暂无数据</view>
@@ -341,7 +341,7 @@
 					      style="border-right: 1px solid #CCC;">取消
 					</text>
 					<text class="uni-tip-button" @click="bind"
-					      :style="{background: selectData.length == 0 ? '#F2F2F2' : '#007AFF', color: selectData.length == 0 ? '#C3C3C3' : '#FFFFFF'}"
+					      :style="{background: selectData.length == 0 ? '#F2F2F2' : '#01B065', color: selectData.length == 0 ? '#C3C3C3' : '#FFFFFF'}"
 					      style="margin-left: 0.693rem  /* 13/18.75 */;">确定绑定
 					</text>
 				</view>
@@ -351,7 +351,7 @@
 		<uni-popup ref="unbindVisible" type="bottom" :mask-click="false">
 			<view class="uni-tip" ref="uniTip">
 				<view class="uni-tip-title">
-					<text style="float: left;border-bottom: 2px solid #007AFF;">解除绑定</text>
+					<text style="float: left;border-bottom: 2px solid #01B065;">解除绑定</text>
 					<icon type="clear" style="float: right;" class="icon-clear"
 					      @click="cancleUnbind"/>
 				</view>
@@ -369,7 +369,7 @@
 					      style="border-right: 1px solid #CCC;">取消
 					</text>
 					<text class="uni-tip-button"
-					      style="background: #007AFF;color: #FFF;margin-left: 0.693rem  /* 13/18.75 */;"
+					      style="background: #01B065;color: #FFF;margin-left: 0.693rem  /* 13/18.75 */;"
 					      @click="unbind">提交
 					</text>
 				</view>
@@ -379,7 +379,7 @@
 		<uni-popup ref="detailVisible" type="bottom" :mask-click="false">
 			<view class="uni-tip" ref="uniTip">
 				<view class="uni-tip-title">
-					<text style="float: left;border-bottom: 2px solid #007AFF;">支付详情</text>
+					<text style="float: left;border-bottom: 2px solid #01B065;">支付详情</text>
 					<icon type="clear" style="float: right;" class="icon-clear"
 					      @click="cancleDetail"/>
 				</view>
@@ -1382,8 +1382,8 @@
 		line-height: 1.28rem /* 24/18.75 */;
 		vertical-align: middle;
 		background-color: #FFFFFF;
-		border: 1px solid #007AFF;
-		color: #007AFF;
+		border: 1px solid #01B065;
+		color: #01B065;
 	}
 
 	.clear-date:after {
@@ -1404,8 +1404,8 @@
 		line-height: 1.6rem /* 30/18.75 */;
 		font-size: 0.64rem /* 12/18.75 */;
 		vertical-align: middle;
-		background-color: #007AFF;
-		border: 1px solid #007AFF;
+		background-color: #01B065;
+		border: 1px solid #01B065;
 		color: #FFFFFF;
 	}
 
@@ -1622,8 +1622,8 @@
 		font-size: 0.64rem /* 12/18.75 */;
 		background-color: #FFFFFF;
 		border-radius: 0.64rem /* 12/18.75 */;
-		border: solid 1px #007AFF;
-		color: #007AFF;
+		border: solid 1px #01B065;
+		color: #01B065;
 		display: inline-block;
 		padding: 0 0.267rem /* 5/18.75 */;
 	}
@@ -1680,14 +1680,14 @@
 		line-height: 2.133rem;
 		vertical-align: top;
 		padding: 0 0.533rem /* 10/18.75 */;
-		background-color: #007AFF;
+		background-color: #01B065;
 		font-size: 0.693rem /* 13/18.75 */;
 		color: #FFFFFF;
 		border-radius: 0.213rem /* 4/18.75 */;
 	}
 
 	.select-btn:after {
-		border: 1px solid #007AFF;
+		border: 1px solid #01B065;
 	}
 
 	.tab-list-button {
@@ -1721,7 +1721,7 @@
 		font-family: PingFang-SC-Blod;
 		background-color: #DEEEFF;
 		border: 2px solid #DEEEFF;
-		color: #007AFF;
+		color: #01B065;
 	}
 
 	.navBar-btn {

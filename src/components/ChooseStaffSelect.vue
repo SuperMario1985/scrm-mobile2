@@ -1,6 +1,6 @@
 <template>
 	<view class="box content_head">
-		<uni-nav-bar left-icon="back" @clickLeft="back" left-text="返回" background-color="#5284ec" color="#fff">
+		<uni-nav-bar left-icon="back" @clickLeft="back" left-text="返回" background-color="#01B065" color="#fff">
 			<uni-search-bar radius="30" placeholder="请输入搜索内容" clearButton="always"
 			                cancelButton="none" @input="search" ref="searchBar" v-if="searchVisible"/>
 			<view slot="right">
@@ -246,7 +246,7 @@
 	}
 
 	.btn {
-		background-color: #5284EC;
+		background-color: #01B065;
 		color: #E7EFFC;
 		float: right;
 		font-size: 15px;
@@ -307,7 +307,7 @@
 	}
 
 	/deep/ .uni-searchbar {
-		background-color: #5284EC;
+		background-color: #01B065;
 		width: 100%;
 	}
 

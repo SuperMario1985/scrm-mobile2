@@ -312,7 +312,7 @@
 				<view class="qiun-charts" style="padding-top: 0.533rem;background: #FFF">
 					<canvas canvas-id="canvasFunnel" id="canvasFunnel" class="qiun-charts"
 					        @touchstart="touchFunnel" v-if="isShowFunnel"></canvas>
-					<img src="../../static/scrm/funnelEmpty.png" alt="" v-if="!isShowFunnel"
+					<img src="../../static/scrm/empty.png" alt="" v-if="!isShowFunnel"
 					     style="width: 54%;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);">
 				</view>
 			</view>
@@ -1502,7 +1502,7 @@
 		}
 
 		.activity-btn {
-			background: #5183EB !important;
+			background: #01B065 !important;
 			color: #FFF !important;
 		}
 
@@ -1535,13 +1535,13 @@
 
 		.chartColor {
 			color: #FFFFFF !important;
-			background: #5183EB !important;
-			border-color: #5183EB !important;
+			background: #01B065 !important;
+			border-color: #01B065 !important;
 		}
 
 		.statuscolor {
-			color: #5183EB !important;
-			/*background: #5183EB !important;*/
+			color: #01B065 !important;
+			/*background: #01B065 !important;*/
 		}
 
 
@@ -1568,7 +1568,7 @@
 			#not_style {
 				color: #FFF;
 				/*border: 1px solid #4993F9;*/
-				background: #5183EB;
+				background: #01B065;
 				border-radius: 0.213rem;
 			}
 		}
@@ -1627,8 +1627,8 @@
 		}
 
 		#ChangeColor {
-			color: #5183EB !important;
-			/*background: #5183EB !important;*/
+			color: #01B065 !important;
+			/*background: #01B065 !important;*/
 		}
 
 		.title_style {
@@ -1637,7 +1637,7 @@
 		}
 
 		.color {
-			background: #1890FF !important;
+			background: #01B065 !important;
 			height: 0.5rem;
 			border-radius: 0.4rem;
 		}

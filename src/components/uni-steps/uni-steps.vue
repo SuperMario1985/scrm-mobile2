@@ -68,7 +68,7 @@
 								</text>
 							</text>
 							<text style="width: 8rem  /* 150/18.75 */;float: right;">
-								<cmdProgress :percent="item.per" stroke-color="#5284EC"></cmdProgress>
+								<cmdProgress :percent="item.per" stroke-color="#01B065"></cmdProgress>
 							</text>
 						</view>
 						<text :class="[direction==='column'?'uni-steps__column-desc':'uni-steps__row-desc']"
@@ -124,7 +124,7 @@
 			deactiveColor: {
 				// 未激活状态颜色
 				type   : String,
-				default: '#5283EC'
+				default: '#01B065'
 			},
 			options      : {
 				type: Array,
@@ -211,7 +211,7 @@
 		width: 108px;
 		height: 25px;
 		line-height: 25px;
-		background: #1890FF;
+		background: #01B065;
 		border-radius: 3px;
 		display: flex;
 		justify-content: flex-start;

@@ -2,7 +2,7 @@
 	<view class="box" :class="wosScroll">
 
 		<view v-if="!showChooseStaff">
-			<uni-nav-bar left-icon="back" title="非企微客户详情" @clickLeft="back" background-color="#5284ec" color="#fff"
+			<uni-nav-bar left-icon="back" title="非企微客户详情" @clickLeft="back" background-color="#01B065" color="#fff"
 			             :fixed="true"></uni-nav-bar>
 			<view v-show="!isReady">
 				<view class="custom-info">
@@ -299,7 +299,7 @@
 				      style="background-color:#FDAD39;" v-has="'client-assign'">客户转交
 				</view>
 				<view class="footer-btn" v-if="list.is_protect == 1" @click="cancelProtect"
-				      style="background-color: #5284EC;width: 40%;border-radius: 0.96rem;height: 1.9rem;line-height:1.9rem;
+				      style="background-color: #01B065;width: 40%;border-radius: 0.96rem;height: 1.9rem;line-height:1.9rem;
 					      margin: 0.76rem auto 0.5rem;color: #FFF;" v-has="'client-protect'">取消保护
 				</view>
 			</view>
@@ -311,7 +311,7 @@
 					添加项目跟进
 				</text>
 				<view style="line-height: 3.733rem  /* 70/18.75 */;color: #333333;font-size: 0.853rem  /* 16/18.75 */;font-weight: 700;text-align: left;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;word-break: break-all;">
-					<text style="width: 0.16rem  /* 3/18.75 */;height: 0.72rem  /* 13.5/18.75 */;display: inline-block;background: #5283EC;margin-right: 0.427rem  /* 8/18.75 */;"></text>
+					<text style="width: 0.16rem  /* 3/18.75 */;height: 0.72rem  /* 13.5/18.75 */;display: inline-block;background: #01B065;margin-right: 0.427rem  /* 8/18.75 */;"></text>
 					{{projectName}}
 				</view>
 				<view style="font-size: 0.747rem  /* 14/18.75 */;color: #333;text-align: left;padding-left: 0.587rem  /* 11/18.75 */;">
@@ -430,7 +430,7 @@
 						<view v-for="(imgSrc,imgIndex) in imageSrc" class="img">
 							<image :src="commonUrl + imgSrc" @click="preview(imgIndex)" class="img2"></image>
 							<uni-icons type="close" size="20" style="position: absolute;right: 0;top: 0;"
-							           color="#1890FF" @click="deleteImg(imgIndex)"></uni-icons>
+							           color="#01B065" @click="deleteImg(imgIndex)"></uni-icons>
 						</view>
 					</scroll-view>
 				</view>
@@ -2038,8 +2038,8 @@
 	}
 
 	.tag-blue {
-		border: 1px solid #5283EC;
-		color: #5283EC;
+		border: 1px solid #01B065;
+		color: #01B065;
 	}
 
 	.tag-green {
@@ -2163,7 +2163,7 @@
 	}
 
 	/deep/ .uni-tag-text {
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	/deep/ .uni-tag-text span {
@@ -2453,7 +2453,7 @@
 
 	.todo-box-body-btn {
 		/*width: 4.053rem !* 76/18.75 *!;*/
-		background: #5283EC;
+		background: #01B065;
 		display: inline-block;
 		font-size: 0.64rem /* 12/18.75 */;
 		line-height: 1.493rem /* 28/18.75 */;
@@ -2484,7 +2484,7 @@
 		width: calc(100% - 5.813rem /* 109/18.75 */);
 		line-height: 2.667rem /* 50/18.75 */;
 		text-align: center;
-		background: #5283EC;
+		background: #01B065;
 		font-size: 0.8rem /* 15/18.75 */;
 		color: #FFF;
 	}
@@ -2518,7 +2518,7 @@
 	}
 
 	.three-btn {
-		background-color: #5284EC;
+		background-color: #01B065;
 		width: 28%;
 		border-radius: 0.96rem /* 18/18.75 */;
 		height: 1.6rem /* 30/18.75 */;
@@ -2527,7 +2527,7 @@
 	}
 
 	.two-btn {
-		background-color: #5284EC;
+		background-color: #01B065;
 		width: 40%;
 		border-radius: 0.96rem /* 18/18.75 */;
 		height: 1.6rem /* 30/18.75 */;

@@ -60,7 +60,7 @@
 					<text style="color: #FF562D;">{{ keyLength }}</text>
 					个<img src="../../static/assets/question.png" style="vertical-align: text-bottom; width: 0.96rem  /* 18/18.75 */;" @click="openQuestion"/>
 					<text @click="refreshKeyword"
-					      style="float: right; display: inline-block; cursor: pointer; margin-left: 0.533rem  /* 10/18.75 */;color:#1890FF">
+					      style="float: right; display: inline-block; cursor: pointer; margin-left: 0.533rem  /* 10/18.75 */;color:#01B065">
 						刷新
 					</text>
 				</view>
@@ -536,7 +536,7 @@
 					<view style="float: right;cursor: pointer;" @click="handlerOkRadar">确定</view>
 				</view>
 				<view style="height: 135px;overflow-y: auto;">
-					<div :style="{color : isRadar == item.isRadar ? '#1890FF' : '#323233'}" class="radar-item"
+					<div :style="{color : isRadar == item.isRadar ? '#01B065' : '#323233'}" class="radar-item"
 					     v-for="item in radarArr" @click="selectRadar(item.isRadar, item.radarName)">
 						{{ item.radarName }}
 					</div>
@@ -2276,15 +2276,15 @@
 	}
 
 	.active-btn-left {
-		border: 2px solid #1890FF;
-		color: #1890FF;
+		border: 2px solid #01B065;
+		color: #01B065;
 		border-top-right-radius: 0;
 		border-bottom-right-radius: 0;
 	}
 
 	.active-btn-right {
-		border: 2px solid #1890FF;
-		color: #1890FF;
+		border: 2px solid #01B065;
+		color: #01B065;
 		border-top-left-radius: 0;
 		border-bottom-left-radius: 0;
 	}
@@ -2621,8 +2621,8 @@
 	.keywordActive {
 		display: inline-block;
 		background-color: #FFFFFF;
-		border: 1px solid #1890FF;
-		color: #1890FF;
+		border: 1px solid #01B065;
+		color: #01B065;
 		font-size: 0.64rem /* 12/18.75 */;
 		margin: 0 0.267rem 0.267rem 0 /* 5/18.75 */;
 		height: 1.28rem /* 24/18.75 */;
@@ -2686,7 +2686,7 @@
 		line-height: 2.24rem /* 42/18.75 */;
 		border-radius: 0.267rem /* 5/18.75 */;
 		text-align: center;
-		background: #5283EC;
+		background: #01B065;
 		font-size: 0.8rem /* 15/18.75 */;
 		color: #FFF;
 		margin-left: 0.533rem /* 10/18.75 */;
@@ -2702,7 +2702,7 @@
 		font-size: 0.747rem /* 14/18.75 */;
 		color: #3B4144;
 		text-align: right;
-		color: #1890FF;
+		color: #01B065;
 	}
 
 	.applet-cell {
@@ -2774,7 +2774,7 @@
 
 	/deep/ .ly-tree-node__content.is-current {
 		background-color: #FFFFFF;
-		color: #1890FF;
+		color: #01B065;
 	}
 
 	.radar-item {
@@ -2811,9 +2811,9 @@
 	}
 	.question .uni-tip-button {
 		font-size: 0.8rem  /* 15/18.75 */;
-		border: 1px solid #5283EC;
+		border: 1px solid #01B065;
 		color: #FFFFFF !important;
-		background-color: #5283EC;
+		background-color: #01B065;
 		border-radius: 0.267rem /* 5/18.75 */;
 	}
 </style>

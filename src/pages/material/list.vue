@@ -259,7 +259,7 @@
 						{{ txtTitle }}
 					</text>
 					<uni-icons @click="openPopup({show: false})" type="close" size="16"
-					           style="float: right; color: #1890FF;"></uni-icons>
+					           style="float: right; color: #01B065;"></uni-icons>
 				</view>
 				<scroll-view style="height: 18.667rem  /* 350/18.75 */;" :scroll-y="true">
 					<pre style="text-align: left;word-break: break-all; white-space: normal;overflow-y: auto;"
@@ -1140,7 +1140,7 @@
 	}
 
 	/deep/ .uni-navbar__header {
-		background: #1890FF !important;
+		background: #01B065 !important;
 	}
 
 	/deep/ .uni-navbar__header-container {

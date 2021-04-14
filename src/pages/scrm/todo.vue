@@ -5,7 +5,7 @@
 				<scroll-view class="fix-status-box" scroll-x="true" scroll-left="0" :scroll-into-view="toView"
 				             scroll-with-animation v-if="from == 1 && show_status == 1">
 					<view class="content-hd-tabs" v-for="item in statusList" :id="'view'+item.id"
-					      :style="{'background':item.id == statusId ? '#5283EC' : '','color': item.id == statusId ? '#FFF' : ''}"
+					      :style="{'background':item.id == statusId ? '#01B065' : '','color': item.id == statusId ? '#FFF' : ''}"
 					      @click="changeStatusId(item.id,item.title)">{{item.title}}
 					</view>
 				</scroll-view>
@@ -25,7 +25,7 @@
 									               :showArrow="false" @click="changeProjectId(item.id,item.title)"
 									               :clickable="true">
 										<template v-slot:right="">
-											<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+											<uni-icons type="checkmarkempty" size="22" color="#01B065"
 											           mode="widthFix"
 											           v-if="projectId == item.id"></uni-icons>
 										</template>
@@ -41,7 +41,7 @@
 									               :showArrow="false" @click="changeStatusId(item.id,item.title)"
 									               :clickable="true">
 										<template v-slot:right="">
-											<uni-icons type="checkmarkempty" size="22" color="#5284EC"
+											<uni-icons type="checkmarkempty" size="22" color="#01B065"
 											           mode="widthFix"
 											           v-if="statusId == item.id"></uni-icons>
 										</template>
@@ -84,7 +84,7 @@
 								      :style="{'color':part.level_color,'border-color':part.level_color}">{{part.level}}
 								</view>
 								<view style="width: 7rem;display: inline-block;float: right;">
-									<cmd-progress :percent="part.per" stroke-color="#5284EC"></cmd-progress>
+									<cmd-progress :percent="part.per" stroke-color="#01B065"></cmd-progress>
 								</view>
 							</view>
 						</view>
@@ -153,7 +153,7 @@
 				<scroll-view scroll-y="true" class="scroll-Y"
 				             style="font-size: 0.747rem  /* 14/18.75 */;color: #333;text-align: left;height: 20rem  /* 375/18.75 */;overflow-y: auto;">
 					<view style="line-height: 3.733rem  /* 70/18.75 */;color: #333333;font-size: 0.853rem  /* 16/18.75 */;font-weight: 700;text-align: left;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;word-break: break-all;">
-						<text style="width: 0.16rem  /* 3/18.75 */;height: 0.72rem  /* 13.5/18.75 */;display: inline-block;background: #5283EC;margin-right: 0.427rem  /* 8/18.75 */;"></text>
+						<text style="width: 0.16rem  /* 3/18.75 */;height: 0.72rem  /* 13.5/18.75 */;display: inline-block;background: #01B065;margin-right: 0.427rem  /* 8/18.75 */;"></text>
 						{{addName}}
 					</view>
 					<view>
@@ -917,7 +917,7 @@
 
 	.todo-box-body-btn {
 		/*width: 4.053rem !* 76/18.75 *!;*/
-		background: #5283EC;
+		background: #01B065;
 		display: inline-block;
 		font-size: 0.64rem /* 12/18.75 */;
 		margin-left: 0.64rem /* 12/18.75 */;
@@ -1027,7 +1027,7 @@
 		line-height: 2.24rem /* 42/18.75 */;
 		border-radius: 0.267rem /* 5/18.75 */;
 		text-align: center;
-		background: #5283EC;
+		background: #01B065;
 		font-size: 0.8rem /* 15/18.75 */;
 		color: #FFF;
 	}
@@ -1065,7 +1065,7 @@
 
 	.list-hd-content-tag {
 		background: #E7EFFC;
-		color: #5283EC;
+		color: #01B065;
 		border-radius: 0.267rem /* 5/18.75 */;
 		height: 0.853rem /* 16/18.75 */;
 		margin-right: 0.267rem /* 5/18.75 */;

@@ -1,6 +1,6 @@
 <template>
 	<view class="box2 content_head">
-		<uni-nav-bar left-icon="back" title="打标签" @clickLeft="back" :fixed="true" background-color="#5284ec"
+		<uni-nav-bar left-icon="back" title="打标签" @clickLeft="back" :fixed="true" background-color="#01B065"
 		             color="#fff"></uni-nav-bar>
 		<!--退出确认弹窗-->
 		<uni-popup ref="visible" type="center" :mask-click="false">
@@ -273,7 +273,7 @@
 
 	.tags-blue {
 		background: #E7EFFC;
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	.tags-border {
@@ -306,7 +306,7 @@
 	}
 
 	.btn {
-		background-color: #5283EC;
+		background-color: #01B065;
 		color: #E7EFFC;
 		float: right;
 		font-size: 0.8rem /* 15/18.75 */;

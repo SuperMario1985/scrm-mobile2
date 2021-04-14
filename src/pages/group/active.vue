@@ -1,7 +1,7 @@
 <template>
 	<view class="member_container">
 		<uni-nav-bar left-icon="back" style="position: fixed; z-index: 9;" title="群活跃排行榜" @clickLeft="back"
-		             background-color="#5284ec"
+		             background-color="#01B065"
 		             color="#fff"></uni-nav-bar>
 		<!--	 客户客户群切换		-->
 		<view class="select-list">
@@ -31,7 +31,7 @@
 						<text v-else>
 							自定义时间
 						</text>
-						<uni-icons :style="dateIndex == 4 ? {color: '#1890FF'} : {color: '#999'}" type="arrowdown"></uni-icons>
+						<uni-icons :style="dateIndex == 4 ? {color: '#01B065'} : {color: '#999'}" type="arrowdown"></uni-icons>
 					</view>
 					<view class="sort-icon">
 						<image style="width: 0.693rem  /* 13/18.75 */;height: 0.693rem  /* 13/18.75 */;vertical-align: middle;"
@@ -99,13 +99,13 @@
 				<view style="text-align: left;font-size: 0.747rem  /* 14/18.75 */; border-bottom: 0.053rem  /* 1/18.75 */ solid #CCC;line-height: 2.667rem  /* 50/18.75 */;line-height: 2.667rem  /* 50/18.75 */;padding: 0 0.533rem  /* 10/18.75 */;"
 				      @click="changeFrom(1)">
 					活跃度高到低
-					<uni-icons type="checkmarkempty" size="22" color="#5284EC" style="float: right;"
+					<uni-icons type="checkmarkempty" size="22" color="#01B065" style="float: right;"
 					           v-if="sort == 1"></uni-icons>
 				</view>
 				<view style="text-align: left; font-size: 0.747rem  /* 14/18.75 */; line-height: 2.667rem  /* 50/18.75 */;line-height: 2.667rem  /* 50/18.75 */;padding: 0 0.533rem  /* 10/18.75 */;"
 				      @click="changeFrom(2)">
 					活跃度低到高
-					<uni-icons type="checkmarkempty" size="22" color="#5284EC" style="float: right;"
+					<uni-icons type="checkmarkempty" size="22" color="#01B065" style="float: right;"
 					           v-if="sort == 2"></uni-icons>
 				</view>
 			</view>
@@ -424,10 +424,10 @@
 	}
 
 	.ChangeColor {
-		border: 1px solid #5183EB !important;
+		border: 1px solid #01B065 !important;
 		background-color: #FFFFFF;
-		/*background: #5183EB;*/
-		color: #5183EB;
+		/*background: #01B065;*/
+		color: #01B065;
 	}
 
 	/deep/ .uni-app--showtabbar uni-page-wrapper:after {
@@ -470,7 +470,7 @@
 		color: #999;
 		width: 100%;
 		padding: 0.534rem 0;
-		background-color: #1890FF;
+		background-color: #01B065;
 	}
 
 	.username {
@@ -645,7 +645,7 @@
 
 	.blue {
 		border: 1px solid #91D5FF;
-		color: #1890FF;
+		color: #01B065;
 		background: #E6F7FF;
 	}
 

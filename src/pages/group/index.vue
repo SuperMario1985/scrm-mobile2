@@ -1,6 +1,6 @@
 <template>
 	<view class="box" :class="wosScroll">
-		<uni-nav-bar left-icon="back" title="群详情" @clickLeft="back" background-color="#5284ec" color="#fff"
+		<uni-nav-bar left-icon="back" title="群详情" @clickLeft="back" background-color="#01B065" color="#fff"
 		             v-if="this.getParameter('chat_id') != null" :fixed="true"></uni-nav-bar>
 		<view v-if="!isReady">
 			<view class="custom-info">
@@ -22,7 +22,7 @@
 		<view v-if="isReady">
 			<view class="custom-info">
 				<view style="overflow: hidden;">
-					<span style="background: #1890FF;width: 58px;height:58px;border-radius: 50%;float: left;overflow: hidden;"
+					<span style="background: #01B065;width: 58px;height:58px;border-radius: 50%;float: left;overflow: hidden;"
 					      v-if="list.avatarData.length == 0">
 									<img src="../../static/group/chat.png"
 									     style="width: 36px;margin: 11px;height: 36px;"/>
@@ -261,7 +261,7 @@
 							<view v-for="(imgSrc,imgIndex) in imageSrc" class="img">
 								<image :src="commonUrl + imgSrc" @click="preview(imgIndex)" class="img2"></image>
 								<uni-icons type="close" size="20" style="position: absolute;right: 0;top: 0;"
-								           color="#1890FF" @click="deleteImg(imgIndex)"></uni-icons>
+								           color="#01B065" @click="deleteImg(imgIndex)"></uni-icons>
 							</view>
 						</scroll-view>
 					</view>
@@ -1194,8 +1194,8 @@
 	}
 
 	.tag-blue {
-		border: 1px solid #5283EC;
-		color: #5283EC;
+		border: 1px solid #01B065;
+		color: #01B065;
 	}
 
 	.tag-green {
@@ -1293,7 +1293,7 @@
 	}
 
 	/deep/ .uni-tag-text {
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	/deep/ .uni-tag-text span {

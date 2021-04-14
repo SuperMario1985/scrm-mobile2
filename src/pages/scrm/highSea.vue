@@ -31,7 +31,7 @@
 						           style="font-size: 0.96rem  /* 18/18.75 */;color: #999;margin-left: -88%; line-height: 1.493rem  /* 28/18.75 */; margin-top:  0.107rem  /* 2/18.75 */;"
 						           v-if="noCustomName != ''" @click="clearInput2"></uni-icons>
 					</view>
-					<text style="cursor:pointer;display: inline-block;width: 15%;text-align: center;color: #5284EC;background: #FFF;line-height: 3.2rem  /* 60/18.75 */;"
+					<text style="cursor:pointer;display: inline-block;width: 15%;text-align: center;color: #01B065;background: #FFF;line-height: 3.2rem  /* 60/18.75 */;"
 					      @click="check">查重
 					</text>
 				</view>
@@ -128,7 +128,7 @@
 							        @click="claim(item,0)" v-has="'highSeasCustomerList-assign'">客户分配
 							</button>
 							<button type="default" class="content-list-box-btn" @click="claim(item,1)"
-							        style="background: #5183EB;color: #FFF;"
+							        style="background: #01B065;color: #FFF;"
 							        v-if="item.claimTip == ''" v-has="'highSeasCustomerList-claim'">认领客户
 							</button>
 						</view>
@@ -202,7 +202,7 @@
 								<view style=";overflow: hidden;">
 									<view style="font-size: 0.693rem  /* 13/18.75 */;margin: 0.267rem  /* 5/18.75 */ 0;white-space: nowrap">
 										<text v-if="item.tagData.length == 0"
-										      style="color: #5283EC;">暂无标签
+										      style="color: #01B065;">暂无标签
 										</text>
 										<text v-for="tag in item.tagData" v-if="item.tagData.length > 0"
 										      class="list-hd-content-tag">{{tag.tname}}
@@ -226,7 +226,7 @@
 							        style="margin-right: 0.533rem  /* 10/18.75 */;" @click="claim(item,0)"
 							        v-has="'highSeasCustomerList-assign'">客户分配
 							</button>
-							<button type="default" style="background: #5183EB;color: #FFF;" class="content-list-box-btn"
+							<button type="default" style="background: #01B065;color: #FFF;" class="content-list-box-btn"
 							        @click="claim(item,1)" v-has="'highSeasCustomerList-claim'">认领客户
 							</button>
 						</view>
@@ -2031,8 +2031,8 @@
 
 	.chartColor {
 		color: #FFFFFF !important;
-		background: #5183EB !important;
-		border-color: #5183EB !important;
+		background: #01B065 !important;
+		border-color: #01B065 !important;
 	}
 
 	.uni-list-cell {
@@ -2262,7 +2262,7 @@
 		line-height: 2.24rem /* 42/18.75 */;
 		border-radius: 0.267rem /* 5/18.75 */;
 		text-align: center;
-		background: #5283EC;
+		background: #01B065;
 		font-size: 0.8rem /* 15/18.75 */;
 		color: #FFF;
 	}
@@ -2306,7 +2306,7 @@
 		padding: 0 0.853rem /* 16/18.75 */;
 		font-size: 0.64rem /* 12/18.75 */;
 		background: #E7EFFC;
-		color: #5283EC;
+		color: #01B065;
 	}
 
 	.nav {
@@ -2330,7 +2330,7 @@
 	/deep/ .tab__line {
 		width: 1.1rem !important;
 		height: 0.213rem;
-		background: rgba(82, 131, 236, 1);
+		background: #01B065;
 		border-radius: 0.107rem;
 	}
 
@@ -2361,7 +2361,7 @@
 
 	.list-hd-content-tag {
 		background: #E7EFFC;
-		color: #5283EC;
+		color: #01B065;
 		border-radius: 0.267rem /* 5/18.75 */;
 		line-height: 0.853rem /* 16/18.75 */;
 		margin: 0 0.267rem /* 5/18.75 */ 0.267rem /* 5/18.75 */ 0;
@@ -2375,7 +2375,7 @@
 
 	.fix-btn {
 		color: #FFF;
-		background: #5183EB;
+		background: #01B065;
 		position: fixed;
 		padding: 0.64rem /* 12/18.75 */;
 		left: -12.8rem /* -240/18.75 */;

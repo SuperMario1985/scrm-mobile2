@@ -657,7 +657,7 @@
 
 		.header {
 			height: 2.4rem;
-			background: #5283EC;
+			background: #01B065;
 			text-align: left;
 
 			.data {
@@ -672,13 +672,13 @@
 
 		.chartColor {
 			color: #FFFFFF !important;
-			background: #5183EB !important;
-			border-color: #5183EB !important;
+			background: #01B065 !important;
+			border-color: #01B065 !important;
 		}
 
 		.statuscolor {
 			color: #FFFFFF !important;
-			background: #5183EB !important;
+			background: #01B065 !important;
 		}
 
 		/deep/ .dropdown-item__selected .selected__name {
@@ -722,7 +722,7 @@
 			font-size: 0.747rem;
 			height: 2.667rem;
 			line-height: 2.667rem;
-			background: #5183EB;
+			background: #01B065;
 		}
 
 		.thC {
@@ -790,8 +790,8 @@
 			border-bottom: 0.053rem solid #f3f3f7
 		}
 		#ChangeColor{
-			/*background: #5183EB;*/
-			color: #5183EB;
+			/*background: #01B065;*/
+			color: #01B065;
 		}
 
 		.custom-tabs-loading {

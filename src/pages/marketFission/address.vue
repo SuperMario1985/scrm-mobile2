@@ -31,7 +31,7 @@
 					<text class="input area" v-else @click="openAddress">{{region}}-{{city}}-{{county}}</text>
 					<simpleAddress ref="simpleAddress" :pickerValueDefault="cityPickerValueDefault"
 					               @onConfirm="onConfirm"
-					               themeColor="#1890FF"></simpleAddress>
+					               themeColor="#01B065"></simpleAddress>
 				</view>
 				<view class="row" v-if="info.indexOf(3) > -1">
 					<input class="input" type="text" v-model="detail" placeholder="请输入详细地址"
