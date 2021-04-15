@@ -7,7 +7,7 @@
 					       :src="avatar"></image>
 					<view class="list-hd-content">
 						<view class="list-hd-content-name">{{name}}</view>
-						<view class="list-hd-content-name" style="color:  #B2CBFF;font-size: 0.64rem  /* 12/18.75 */;">
+						<view class="list-hd-content-name" style="color:  #fff;font-size: 0.64rem  /* 12/18.75 */;">
 							{{departName}}
 						</view>
 					</view>
@@ -560,7 +560,7 @@
 		line-height: 1.28rem /* 24/18.75 */;
 		text-align: center;
 		color: #FFF;
-		border: 1px solid #B2CBFF;
+		border: 1px solid #fff;
 		border-radius: 0.533rem /* 10/18.75 */;
 		float: left;
 		margin-top: 0.507rem /* 9.5/18.75 */;

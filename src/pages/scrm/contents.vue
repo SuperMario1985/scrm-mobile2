@@ -167,7 +167,7 @@
 				</view>
 				<view v-if="xarr.length ==0" class="ifChart"
 				      style="display: flex;justify-content: center;align-items: center">
-					<view style="width: 10rem; height: 6rem; margin: 0.64rem 0.533rem 0.64rem; background: url(../../static/scrm/noData.png) no-repeat;background-size:contain;padding: 0.427rem 0.693rem;box-sizing: border-box;"></view>
+					<view style="width: 10rem; height: 6rem; margin: 0.64rem 0.533rem 0.64rem; background: url(../../static/scrm/noData.png) 50% 0% no-repeat;background-size:contain;padding: 0.427rem 0.693rem;box-sizing: border-box;"></view>
 				</view>
 				<!--		TOP10table表格区域		-->
 				<view v-show="index==1" class="top_f">
